@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script type="text/javascript" src="js/pajhome_md5.js"></script>
+    <script type="text/javascript" src="js/pajhome_sha1.js"></script>
+    <script type="text/javascript" src="js/pajhome_sha256.js"></script>
+    <script type="text/javascript" src="js/crypto.js"></script>
+    <script type="text/javascript" src="js/calc.js"></script>
+    
 </head>  
 
 
 
 <body>
   <div style="text-align:center; background-color:white;padding:10px;" >
-  <p>404 - page not found </p>
+  <p>was the 404 - page but has been hijacked for your pleasure </p>
 
-  <p id="demo"></p>
+  <h1>You came  here from: <p id="demo"></p></h1>
   
 <script>
-  document.getElementById("demo").innerHTML = document.URL;
+  document.getElementById("demo").innerHTML = document.URL.substr(document.URL.lastIndexOf("/")+1);
 </script>
   <a href="/" ><img id="logo" src="img/mstile-150x150.png" alt="numchk" style="border: none;"/>
 
