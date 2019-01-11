@@ -1,0 +1,1 @@
+document.getElementById("demo").innerHTML = document.URL.substr(document.URL.lastIndexOf("/")+1);
