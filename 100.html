@@ -16,6 +16,25 @@
         <p>was the 404 - page but has been hijacked for your pleasure </p>
 
         <h1>You came  here from: <a id="demo"></a></h1>
+        <iframe src="/100" width=98% height=100%></iframe>
+
+
+        <script type="text/javascript">
+          function iframeDidLoad() {
+             // alert('Done');
+          }
+          
+          function newSite() {
+              var sites = ['http://getprismatic.com',
+                           'http://gizmodo.com/',
+                           'http://lifehacker.com/']
+          
+              //document.getElementById('myIframe').src = sites[Math.floor(Math.random() * sites.length)];
+              document.getElementById('myIframe').src = '/';
+          }    
+          </script>
+          <input type="button" value="Change site" onClick="newSite()" />
+          <iframe id="myIframe" src="http://getprismatic.com/" onLoad="iframeDidLoad();"width=98% height=800px></iframe>
 
 
 <script src="js/2.js"></script>
