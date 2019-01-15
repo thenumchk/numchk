@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132187606-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-132187606-1');
+</script>
+</head>
+<body>
+SSN 416-01-xxxx from Alabama given out from 1936 to 1950. Estimated age of a person with this number is 81-99 years old.<br>
+
+<div id="list">
+    <!-- list displays here -->
+</div>
+<script>
+    var text = "";
+    var i;
+    for (i = 1; i <= 9999; i++) {
+        text += "416-01-";
+        if (i<1000){text +=0;}
+        if (i<100){text +=0;}
+        if (i<10){text +=0;}
+        text += i + "<br>";
+        
+       }
+document.getElementById('list').innerHTML = text;
+</script>
+
+</body>
+</html>
