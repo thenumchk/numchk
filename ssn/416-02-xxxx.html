@@ -37,11 +37,14 @@
 </head>
 <body>
     <div class="container" style="margin-top: 0%">
-            <div class="nine columns">
+            <div class="four columns value-prop">
 
             <a href="/"><img src="../img/trim256.png"><br>&nbsp;&nbsp;&nbsp;&nbsp;NumChk Home</a>
             </div>
-            <div class="three columns">
+            <div class="four columns value-prop">
+            <img src="../img/ssn-250.jpg" >
+            </div>
+            <div class="four columns value-prop">
             <h1><br>SSN</h1>  
         </div>
         <div class="row"></div>
@@ -53,7 +56,15 @@
     SSN 416-02-xxxx from Alabama given out from 1976 to unknown. Estimated age of a person with this number is 47-59 years old.
     <div class="row">
         <div style="margin-top: 0%"><hr>
-                The 9,999 valid Social Security Numbers in the <b>416-02 block</b> are generated client side on your device with JavaScript saving <b>120kB</b> to store and transfer this file. By displaying this list it allows search engines (and you) to find this page.<br><br>
+                The 9,999 valid Social Security Numbers in the <b>416-02 block</b> are generated client side on your device with JavaScript saving <b>480kB</b> to store and transfer this file. By displaying this list it allows search engines (and you) to find this page.<br><br>
+                <b>Number Forms:</b><br>
+                416-02-xxxx is the valid form with '-' separators<br>
+                406 02 xxxx is often used with space separation<br>
+                406.02.xxxx is usage with '.' separator<Br>
+                40602xxxx is often used with no separator<Br><br>
+                ----
+                
+
             <div id="list">
         <!-- list displays here -->
 </div>
@@ -68,7 +79,34 @@
         text += i + " ";
         
        }
+
+       for (i = 1; i <= 9999; i++) {
+        text += "41602";
+        if (i<1000){text +=0;}
+        if (i<100){text +=0;}
+        if (i<10){text +=0;}
+        text += i + " ";
+        
+       }
+
+       for (i = 1; i <= 9999; i++) {
+        text += "416 02 ";
+        if (i<1000){text +=0;}
+        if (i<100){text +=0;}
+        if (i<10){text +=0;}
+        text += i + " ";
+        
+       }
+       for (i = 1; i <= 9999; i++) {
+        text += "416.02.";
+        if (i<1000){text +=0;}
+        if (i<100){text +=0;}
+        if (i<10){text +=0;}
+        text += i + " ";
+        
+       }
 document.getElementById('list').innerHTML = text;
+
 </script>
 </div></div></div>
 </body>
