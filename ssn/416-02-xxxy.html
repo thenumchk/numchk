@@ -36,6 +36,8 @@
   <link rel="icon" type="image/png" href="../img/favicon.png">
 </head>
 <body>
+
+              
     <div class="container" style="margin-top: 0%">
             <div class="four columns value-prop">
 
@@ -53,15 +55,15 @@
     
            
        <div class="container" style="margin-top: 0%">
-    SSN 416-02-xxxx from Alabama given out from 1976 to unknown. Estimated age of a person with this number is 47-59 years old.
+    SSN <span class="num"></span>-xxxx from Alabama given out from 1976 to unknown. Estimated age of a person with this number is 47-59 years old.
     <div class="row">
         <div style="margin-top: 0%"><hr>
-                Four (4) forms of the 9,999 valid Social Security Numbers in the <b>416-02 block</b> are generated client side on your device with JavaScript saving <b>460KB</b> (50KB compressed) to store and transfer this file. By displaying this list it allows search engines (and you) to find this page.<br><br>
+                Four (4) forms of the 9,999 valid Social Security Numbers in the <b><span class="num"></span> block</b> are generated client side on your device with JavaScript saving <b>460KB</b> (50KB compressed) to store and transfer this file. By displaying this list it allows search engines (and you) to find this page.<br><br>
                 <b>Number Forms in the list below:</b><br>
-                <b>416-02-xxxx</b> is the valid form with '-' separators<br>
-                <b>416 02 xxxx</b> is often used with space separation<br>
-                <b>416.02.xxxx</b> is usage with '.' separator<Br>
-                <b>41602xxxx</b> is often used with no separator<Br><br>
+                <b><span class="p1"></span>-<span class="p2"></span>-xxxx</b> is the valid form with '-' separators<br>
+                <b><span class="p1"></span> <span class="p2"></span> xxxx</b> is often used with space separation<br>
+                <b><span class="p1"></span>.<span class="p2"></span>.xxxx</b> is usage with '.' separator<Br>
+                <b><span class="p1"></span><span class="p2"></span>xxxx</b> is often used with no separator<Br><br>
                 ----
                 
 
@@ -78,6 +80,14 @@
     function s(input){for (i = 1; i <= 9999; i++) {text += input;if (i<1000){text +=0;}if (i<100){text +=0;}if (i<10){text +=0;}text += i + " ";}}
     s(p1+"-"+p2+"-");s(p1+"."+p2+".");s(p1+" "+p2+" ");s(p1+p2);     
 document.getElementById('list').innerHTML = text+"<br> (c)NumChk "+ Date();
+var p1s = document.getElementsByClassName('p1');
+var p2s = document.getElementsByClassName('p2');
+var nums = document.getElementsByClassName('num');
+
+for(var i=0;i<p1s.length;i++){p1s[i].innerHTML = p1;}
+for(var i=0;i<p2s.length;i++){p2s[i].innerHTML = p2;}
+for(var i=0;i<nums.length;i++){nums[i].innerHTML = num;}
+
 </script>
 </div></div></div>
 </body>
