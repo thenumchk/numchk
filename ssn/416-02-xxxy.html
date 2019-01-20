@@ -59,54 +59,25 @@
                 Four (4) forms of the 9,999 valid Social Security Numbers in the <b>416-02 block</b> are generated client side on your device with JavaScript saving <b>460KB</b> (50KB compressed) to store and transfer this file. By displaying this list it allows search engines (and you) to find this page.<br><br>
                 <b>Number Forms in the list below:</b><br>
                 <b>416-02-xxxx</b> is the valid form with '-' separators<br>
-                <b>406 02 xxxx</b> is often used with space separation<br>
-                <b>406.02.xxxx</b> is usage with '.' separator<Br>
-                <b>40602xxxx</b> is often used with no separator<Br><br>
+                <b>416 02 xxxx</b> is often used with space separation<br>
+                <b>416.02.xxxx</b> is usage with '.' separator<Br>
+                <b>41602xxxx</b> is often used with no separator<Br><br>
                 ----
                 
 
             <div id="list">
         <!-- list displays here -->
 </div>
-<script>
+<script> //generates list from filename
     var text = "";
     var i;
-    for (i = 1; i <= 9999; i++) {
-        text += "416-02-";
-        if (i<1000){text +=0;}
-        if (i<100){text +=0;}
-        if (i<10){text +=0;}
-        text += i + " ";
-        
-       }
-
-       for (i = 1; i <= 9999; i++) {
-        text += "41602";
-        if (i<1000){text +=0;}
-        if (i<100){text +=0;}
-        if (i<10){text +=0;}
-        text += i + " ";
-        
-       }
-
-       for (i = 1; i <= 9999; i++) {
-        text += "416 02 ";
-        if (i<1000){text +=0;}
-        if (i<100){text +=0;}
-        if (i<10){text +=0;}
-        text += i + " ";
-        
-       }
-       for (i = 1; i <= 9999; i++) {
-        text += "416.02.";
-        if (i<1000){text +=0;}
-        if (i<100){text +=0;}
-        if (i<10){text +=0;}
-        text += i + " ";
-        
-       }
-document.getElementById('list').innerHTML = text;
-
+    var num = document.URL.substr(document.URL.lastIndexOf("/")+1).substring(0,6);
+    var p1 = num.substring(0,3);
+    var p2 = num.substring(4,6);
+    
+    function s(input){for (i = 1; i <= 9999; i++) {text += input;if (i<1000){text +=0;}if (i<100){text +=0;}if (i<10){text +=0;}text += i + " ";}}
+    s(p1+"-"+p2+"-");s(p1+"."+p2+".");s(p1+" "+p2+" ");s(p1+p2);     
+document.getElementById('list').innerHTML = text+"<br> (c)NumChk "+ Date();
 </script>
 </div></div></div>
 </body>
