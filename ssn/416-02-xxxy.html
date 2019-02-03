@@ -7,13 +7,12 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-132187606-1');
 </script>
 <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Number Checker - SSN - Alabama - 1976 - 30% active</title>
+  <title>Number Checker - SSN</title>
   <meta name="The numbers checker" content="">
   <meta name="numchk" content="">
 
@@ -70,27 +69,7 @@
             <div id="list">
         <!-- list displays here -->
 </div>
-<script> //generates list from filename
-    var text = "";
-    var i;
-    var num = document.URL.substr(document.URL.lastIndexOf("/")+1).substring(0,6);
-    var p1 = num.substring(0,3);
-    var p2 = num.substring(4,6);
-    
-    function s(input){for (i = 1; i <= 9999; i++) {text += input;if (i<1000){text +=0;}if (i<100){text +=0;}if (i<10){text +=0;}text += i + " ";}}
-    s(p1+"-"+p2+"-");s(p1+"."+p2+".");s(p1+" "+p2+" ");s(p1+p2);     
-    
-        
-document.getElementById('list').innerHTML = text+"<br><br><br> ©️ NumChk®️ ™️ <b>info@numchk.com</b> page generated: "+ Date() + " product: " + navigator.product + " goe: " + navigator.geolocation.getCurrentPosition + " appversion: " + navigator.appVersion + " appname: " + navigator.appName + " codename: " + navigator.appCodeName;
-var p1s = document.getElementsByClassName('p1');
-var p2s = document.getElementsByClassName('p2');
-var nums = document.getElementsByClassName('num');
-
-for(var i=0;i<p1s.length;i++){p1s[i].innerHTML = p1;}
-for(var i=0;i<p2s.length;i++){p2s[i].innerHTML = p2;}
-for(var i=0;i<nums.length;i++){nums[i].innerHTML = num;}
-
-</script>
+<script src="../js/ssn.js"></script>
 </div></div></div>
 </body>
 </html>
