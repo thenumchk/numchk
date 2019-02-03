@@ -8,12 +8,12 @@
     function s(input){for (i = 1; i <= 9999; i++) {text += input;if (i<1000){text +=0;}if (i<100){text +=0;}if (i<10){text +=0;}text += i + " ";}}
     s(p1+"-"+p2+"-");s(p1+"."+p2+".");s(p1+" "+p2+" ");s(p1+p2);     
 
-    
+//ssn details replace
 var ssndetails = 'SSN <span class="num"></span>-xxxx from Alabama given out from 1976 to unknown. Estimated age of a person with this number is 47-59 years old.'
-document.getElementById('ssndetail').innerHTML = ssndetails;
-   
-
-document.getElementById('list').innerHTML = text+"<br><br><br> ©️ NumChk®️ ™️ <b>info@numchk.com</b> page generated: "+ Date() + " product: " + navigator.product + " goe: " + navigator.geolocation.getCurrentPosition + " appversion: " + navigator.appVersion + " appname: " + navigator.appName + " codename: " + navigator.appCodeName;
+document.getElementById('ssnd').innerHTML = ssndetails;
+ 
+//list replace
+document.getElementById('l').innerHTML = text+"<br><br><br> ©️ NumChk®️ ™️ <b>info@numchk.com</b> page generated: "+ Date() + " product: " + navigator.product + " goe: " + navigator.geolocation.getCurrentPosition + " appversion: " + navigator.appVersion + " appname: " + navigator.appName + " codename: " + navigator.appCodeName;
 var p1s = document.getElementsByClassName('p1');
 var p2s = document.getElementsByClassName('p2');
 var nums = document.getElementsByClassName('num');
@@ -37,7 +37,8 @@ var topp = '<div class="container" style="margin-top: 0%">\
 <h2>Social Security Number Detailed Analysis</h2><hr>\
 </div>'; 
 
-document.getElementById('top').innerHTML = topp;
+//top replace
+document.getElementById('t').innerHTML = topp;
 
 var bott = '<b>ABOUT: </b>Four (4) forms of the 9,999 valid Social Security Numbers in the <b><span class="num"></span> Area-Group block</b> are generated client side on your device with \
 JavaScript saving <b>460KB</b> (50KB compressed) to store and transfer this file. <br><Br>\
@@ -51,5 +52,5 @@ scroll through and read the list, but if you are interested, you can search (<b>
 ' + p1 + ' ' + p2 + ' xxxx</b> is often used with space separation<br>\
 ' + p1 + '.' + p2 + '.xxxx</b>  is usage with "." separator<Br>\
 ' + p1 + '' + p2 + 'xxxx</b> is often used with no separator<Br><br> ----';
-
-document.getElementById('bot').innerHTML = bott;
+//bottom replace
+document.getElementById('b').innerHTML = bott;
