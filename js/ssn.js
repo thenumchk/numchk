@@ -56,7 +56,8 @@ function reqListener () { //run when file is parsed
   
   var oReq = new XMLHttpRequest();
   oReq.addEventListener("load", reqListener);
-  oReq.open("GET", "http://numchk.com/inc/ssn"+lookupfile+ ".txt", true);
+  //oReq.open("GET", "http://numchk.com/inc/ssn"+lookupfile+ ".txt", true);
+  oReq.open("GET", "../inc/ssn"+lookupfile+ ".txt", true);
   oReq.send();
 
 function parseline(item, index){
