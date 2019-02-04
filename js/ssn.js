@@ -19,18 +19,38 @@ var state = {"AL": "Alabama","AK": "Alaska","AZ": "Arizona","AR": "Arkansas","CA
 //ssn details replace
 var p11 = parseInt(p1);
 var lookupfile = p11+49-((p11-1)%50);
-var statecode="AL";
-var statelong=statecode;
-if(statecode in state){statelong=state[statecode];}
+var statecode="";
+var statelong="";
+//if(statecode in state){statelong=state[statecode];}
 var foundline ="";
-
+var parselineresult="";
 
 function reqListener () { //run when file is parsed
     textout = this.responseText;
     console.log(textout+"hi");    
     var textlines = textout.split("\n");
-    textlines.forEach(parseline)
-    var ssndetails = '<h3>SSN ' + num + '-xxxx </h3>from ' + statelong + foundline; ' given out from 1976 to unknown. Estimated age of a person with this number is 47-59 years old.'
+    textlines.forEach(parseline);
+    var ssndetails = '<h3>SSN ' + num + '-xxxx </h3>';
+    ssndetails += "<b>SSN10 details:</b><br>";
+    if(parselineresult[1] != ""){ssndetails += "SSN10 State: " + parselineresult[1] + "<br>";}
+    if(parselineresult[2] != ""){ssndetails += "SSN10 start Date: " + parselineresult[2] + "<br>";}
+    if(parselineresult[3] != ""){ssndetails += "SSN10 end Date: " + parselineresult[3] + "<br>";}
+    ssndetails += "<br><b>Standard Web data details:</b><br>";
+    if(parselineresult[4] != ""){ssndetails += "VER. Start Date: " + parselineresult[4] + "<br>";}
+    if(parselineresult[5] != ""){ssndetails += "VER. End Date: " + parselineresult[5] + "<br>";}
+    if(parselineresult[6] != ""){ssndetails += "VER. Age:  " + parselineresult[6] + "<br>";}
+    if(parselineresult[7] != ""){ssndetails += "VER. State: " + parselineresult[7] + "<br>";}
+    ssndetails += "<br><b>Social Security Death Index database SSDI</b><br>";
+    if(parselineresult[8] !=""){ssndetails += "SSDI Death count: " + parselineresult[8] + " of possible 9,999 in block<br>";}
+    if(parselineresult[9] !=""){ssndetails += "SSDIYoungest Age: " + parselineresult[9] + "<br>";}
+    if(parselineresult[10] !=""){ssndetails += "SSDI Average Age: " + parselineresult[10] + "<br>";}
+    if(parselineresult[11] != ""){ssndetails += "SSDI Oldest Age: " + parselineresult[11] + "<br>";}
+    if(parselineresult[12] != ""){ssndetails += "SSDI Oldest Birth Year: " + parselineresult[12] + "<br>";}
+    if(parselineresult[13] != ""){ssndetails += "SSDI Average Birth Year: " + parselineresult[13] + "<br>";}
+    if(parselineresult[14] != ""){ssndetails += "SSDI Newest Birth Year: " + parselineresult[14] + "<br>";}
+    if(parselineresult[15] != ""){ssndetails += "SSDI Oldest Death Year: " + parselineresult[15] + "<br>";}
+    if(parselineresult[16] != ""){ssndetails += "SSDI Average Death Year: " + parselineresult[16] + "<br>";}
+    if(parselineresult[17] != ""){ssndetails += "SSDI Newest Death Year: " + parselineresult[17] + "<br>";}
     document.getElementById('ssnd').innerHTML = ssndetails;  
 }
   
@@ -39,9 +59,43 @@ function reqListener () { //run when file is parsed
   oReq.open("GET", "http://numchk.com/inc/ssn"+lookupfile+ ".txt", true);
   oReq.send();
 
- function parseline(item, index){
-var parseline = item.split(",") ;
-if (parseline[0] == num){foundline = item;}
+function parseline(item, index){
+  var parseline = item.split(",") ;
+       if (parseline[0] == num){
+           foundline = item;
+           parselineresult=parseline;
+           if (parselineresult[2] != "" && parselineresult[2] !="?"){parselineresult[2] = parseInt(parselineresult[2])+1900;} //bulk of year removed as rudimentary compression of file
+           if (parselineresult[3] != "" && parselineresult[3] !="?"){parselineresult[3] = parseInt(parselineresult[3])+1900;}
+           if (parselineresult[4] != "" && parselineresult[4] !="?")parselineresult[4] = parseInt(parselineresult[4])+1900;
+           if (parselineresult[5] != "" && parselineresult[5] !="?")parselineresult[5] = parseInt(parselineresult[5])+1900;
+           if (parselineresult[12] != "" && parselineresult[12] !="?")parselineresult[12] = parseInt(parselineresult[12])+1900;
+           if (parselineresult[13] != "" && parselineresult[13] !="?")parselineresult[13] = parseInt(parselineresult[13])+1900;
+           if (parselineresult[14] != "" && parselineresult[14] !="?")parselineresult[14] = parseInt(parselineresult[14])+1900;
+           if (parselineresult[15] != "" && parselineresult[15] !="?")parselineresult[15] = parseInt(parselineresult[15])+1900;
+           if (parselineresult[16] != "" && parselineresult[16] !="?")parselineresult[16] = parseInt(parselineresult[16])+1900;
+           if (parselineresult[17] != "" && parselineresult[17] !="?")parselineresult[17] = parseInt(parselineresult[17])+1900;
+             //0  dash
+             //1 ssn10 state,
+             //2 ssn10 start date,
+             //3 ssn10 end date,
+             //4 VER. START,
+             //5 VER. END,
+             //5 VER. AGE,
+             //7 VER STATE,
+             //8 count,
+             //9 youngestage,
+             //10 avgage,
+             //11 oldestage,
+             //12 oldestbirth,
+             //13 avgbirthyr,
+             //14 newestbirth,
+             //15 oldestdeath,
+             //16 avgdeathyr,
+             //17 newestdeath
+            statecode=parseline[7];
+            statelong=statecode;
+            if(statecode in state){statelong=state[statecode];}
+    }
 }
 
 
