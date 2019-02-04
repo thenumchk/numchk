@@ -20,26 +20,32 @@ var state = {"AL": "Alabama","AK": "Alaska","AZ": "Arizona","AR": "Arkansas","CA
 var p11 = parseInt(p1);
 var lookupfile = p11+49-((p11-1)%50);
 var statecode="AL";
-var statelong="";
+var statelong=statecode;
 if(statecode in state){statelong=state[statecode];}
-
+var foundline ="";
 
 
 function reqListener () { //run when file is parsed
     textout = this.responseText;
     console.log(textout+"hi");    
     var textlines = textout.split("\n");
-
-    var ssndetails = '<h3>SSN ' + num + '-xxxx </h3>from ' + statelong + textlines[100] + ' given out from 1976 to unknown. Estimated age of a person with this number is 47-59 years old.'
+    textlines.forEach(parseline)
+    var ssndetails = '<h3>SSN ' + num + '-xxxx </h3>from ' + statelong + foundline; ' given out from 1976 to unknown. Estimated age of a person with this number is 47-59 years old.'
     document.getElementById('ssnd').innerHTML = ssndetails;  
 }
   
   var oReq = new XMLHttpRequest();
   oReq.addEventListener("load", reqListener);
-  oReq.open("GET", "http://numchk.com/inc/ssn150.txt", true);
+  oReq.open("GET", "http://numchk.com/inc/ssn"+lookupfile+ ".txt", true);
   oReq.send();
 
- 
+ function parseline(item, index){
+var parseline = item.split(",") ;
+if (parseline[0] == num){foundline = item;}
+}
+
+
+
 //list replace
 document.getElementById('l').innerHTML = text+"<br><br><br> ©️ NumChk®️ ™️ <b>info@numchk.com</b> page generated: "+ Date() + " product: " + navigator.product + " goe: " + navigator.geolocation.getCurrentPosition + " appversion: " + navigator.appVersion + " appname: " + navigator.appName + " codename: " + navigator.appCodeName;
 var p1s = document.getElementsByClassName('p1');
