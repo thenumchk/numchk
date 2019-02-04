@@ -22,20 +22,23 @@ var lookupfile = p11+49-((p11-1)%50);
 var statecode="AL";
 var statelong="";
 if(statecode in state){statelong=state[statecode];}
-var config = buildConfig();
-var results = Papa.parse("../inc/ssn150.txt",config);
-//var results;
-//var csvfile="../inc/ssn150.txt";
-//var processFile = async (csvFile) => {
-//    Papa.parse(csvFile, {
-//      skipEmptyLines: true,
-//      header: true,
-//      complete: async results => {
-          //results.data shows as a correctly formatted JSON object 
-//        }})}
 
-var ssndetails = 'SSN <span class="num"></span>-xxxx from ' + statelong + results.data[0] + ' given out from 1976 to unknown. Estimated age of a person with this number is 47-59 years old.'
-document.getElementById('ssnd').innerHTML = ssndetails;
+
+
+function reqListener () { //run when file is parsed
+    textout = this.responseText;
+    console.log(textout+"hi");    
+    var textlines = textout.split("\n");
+
+    var ssndetails = '<h3>SSN ' + num + '-xxxx </h3>from ' + statelong + textlines[100] + ' given out from 1976 to unknown. Estimated age of a person with this number is 47-59 years old.'
+    document.getElementById('ssnd').innerHTML = ssndetails;  
+}
+  
+  var oReq = new XMLHttpRequest();
+  oReq.addEventListener("load", reqListener);
+  oReq.open("GET", "http://numchk.com/inc/ssn150.txt", true);
+  oReq.send();
+
  
 //list replace
 document.getElementById('l').innerHTML = text+"<br><br><br> ©️ NumChk®️ ™️ <b>info@numchk.com</b> page generated: "+ Date() + " product: " + navigator.product + " goe: " + navigator.geolocation.getCurrentPosition + " appversion: " + navigator.appVersion + " appname: " + navigator.appName + " codename: " + navigator.appCodeName;
@@ -79,44 +82,3 @@ scroll through and read the list, but if you are interested, you can search (<b>
 ' + p1 + '' + p2 + 'xxxx</b> is often used with no separator<Br><br> ----';
 //bottom replace
 document.getElementById('b').innerHTML = bott;
-
-
-function buildConfig()
-{
-	return {
-		//delimiter: $('#delimiter').val(),
-		//header: $('#header').prop('checked'),
-		//dynamicTyping: $('#dynamicTyping').prop('checked'),
-		//skipEmptyLines: $('#skipEmptyLines').prop('checked'),
-		//preview: parseInt($('#preview').val() || 0),
-		//step: $('#stream').prop('checked') ? stepFn : undefined,
-		//encoding: $('#encoding').val(),
-		//worker: $('#worker').prop('checked'),
-		//comments: $('#comments').val(),
-		//complete: completeFn,
-		//error: errorFn,
-        //download: inputType == "remote"
-
-        delimiter: ",",	// auto-detect
-        newline: "",	// auto-detect
-        quoteChar: '"',
-        escapeChar: '"',
-        header: false,
-        transformHeader: undefined,
-        dynamicTyping: false,
-        preview: 0,
-        encoding: "",
-        worker: false,
-        comments: false,
-        step: undefined,
-        complete: undefined,
-        error: undefined,
-        download: false,
-        skipEmptyLines: false,
-        chunk: undefined,
-        fastMode: undefined,
-        beforeFirstChunk: undefined,
-        withCredentials: undefined,
-        transform: undefined
-	};
-}
