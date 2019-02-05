@@ -51,7 +51,7 @@ function reqListener () { //run when file is parsed
     if(parselineresult[12] != ""){ssndetails += "SSDI Oldest Birth Year: " + parselineresult[12] + "<br>";}
     if(parselineresult[13] != ""){ssndetails += "SSDI Average Birth Year: " + parselineresult[13] + "<br>";}
     if(parselineresult[14] != ""){ssndetails += "SSDI Newest Birth Year: " + parselineresult[14] + "<br>";}
-    if(parselineresult[15] != ""){ssndetails += "<b>.......The exact age of the SSN Block is usually seen between newest birth and oldest death.... </b><br>SSDI Oldest Death Year: " + parselineresult[15] + "<br>";}
+    if(parselineresult[15] != ""){ssndetails += "<b>.......The exact age of the SSN Block usage is usually seen between newest birth and oldest death years.... </b><br>SSDI Oldest Death Year: " + parselineresult[15] + "<br>";}
     if(parselineresult[16] != ""){ssndetails += "SSDI Average Death Year: " + parselineresult[16] + "<br>";}
     if(parselineresult[17] != ""){ssndetails += "SSDI Newest Death Year: " + parselineresult[17] + "<br>";}
     document.getElementById('ssnd').innerHTML = ssndetails;  
