@@ -41,7 +41,7 @@ function reqListener () { //run when file is parsed
     ssndetails += "<br><b>Standard Web data details:</b><br>";
     if(parselineresult[4] != ""){ssndetails += "VER. Start Date of issuing block: " + parselineresult[4] + "<br>"; issueyr = parselineresult[4]; }
     if(parselineresult[5] != ""){ssndetails += "VER. End Date of issuing block: " + parselineresult[5] + "<br>";}
-    if(parselineresult[6] != ""){ssndetails += "VER. Estimated Age of person today:  " + parselineresult[6] + "<br>"; agereport = parselineresult[6];}
+    if(parselineresult[6] != ""){ssndetails += "VER. Estimated Age of person with this number today:  " + parselineresult[6] + "<br>"; agereport = parselineresult[6];}
     if(parselineresult[7] != ""){ssndetails += "VER. Issuing State: " + parselineresult[7] + " is " + statelong + "<br>";}
     ssndetails += "<br><b>Social Security Death Index database SSDI as of 2013</b><br>";
     if(parselineresult[8] !=""){ssndetails += "SSDI Death count: " + parselineresult[8] + " of possible 9,999 in block<br>";deaths=parselineresult[8]}
