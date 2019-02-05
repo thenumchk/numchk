@@ -33,7 +33,7 @@ function reqListener () { //run when file is parsed
     console.log(textout+"hi");    
     var textlines = textout.split("\n");
     textlines.forEach(parseline);
-    var ssndetails = '<h3>SSN ' + num + '-xxxx </h3>';
+    var ssndetails = '<h3>SSN Block ' + num + '-xxxx </h3>';
     ssndetails += "<b>SSN10 details:</b><br>";
     if(parselineresult[1] != ""){ssndetails += "SSN10 State: " + parselineresult[1] + "<br>";}
     if(parselineresult[2] != ""){ssndetails += "SSN10 start Date: " + parselineresult[2] + "<br>";}
@@ -51,7 +51,7 @@ function reqListener () { //run when file is parsed
     if(parselineresult[12] != ""){ssndetails += "SSDI Oldest Birth Year: " + parselineresult[12] + "<br>";}
     if(parselineresult[13] != ""){ssndetails += "SSDI Average Birth Year: " + parselineresult[13] + "<br>";}
     if(parselineresult[14] != ""){ssndetails += "SSDI Newest Birth Year: " + parselineresult[14] + "<br>";}
-    if(parselineresult[15] != ""){ssndetails += "<br><b>.......The exact age of the SSN Block is usually seen between newest birth and oldest death.... </b><br>SSDI Oldest Death Year: " + parselineresult[15] + "<br>";}
+    if(parselineresult[15] != ""){ssndetails += "<b>.......The exact age of the SSN Block is usually seen between newest birth and oldest death.... </b><br>SSDI Oldest Death Year: " + parselineresult[15] + "<br>";}
     if(parselineresult[16] != ""){ssndetails += "SSDI Average Death Year: " + parselineresult[16] + "<br>";}
     if(parselineresult[17] != ""){ssndetails += "SSDI Newest Death Year: " + parselineresult[17] + "<br>";}
     document.getElementById('ssnd').innerHTML = ssndetails;  
