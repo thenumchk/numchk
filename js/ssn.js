@@ -39,11 +39,11 @@ function reqListener () { //run when file is parsed
     if(parselineresult[2] != ""){ssndetails += "SSN10 start Date: " + parselineresult[2] + "<br>";}
     if(parselineresult[3] != ""){ssndetails += "SSN10 end Date: " + parselineresult[3] + "<br>";}
     ssndetails += "<br><b>Standard Web data details:</b><br>";
-    if(parselineresult[4] != ""){ssndetails += "VER. Start Date: " + parselineresult[4] + "<br>"; issueyr = parselineresult[4]; }
-    if(parselineresult[5] != ""){ssndetails += "VER. End Date: " + parselineresult[5] + "<br>";}
-    if(parselineresult[6] != ""){ssndetails += "VER. Age:  " + parselineresult[6] + "<br>"; agereport = parselineresult[6];}
-    if(parselineresult[7] != ""){ssndetails += "VER. State: " + parselineresult[7] + " is " + statelong + "<br>";}
-    ssndetails += "<br><b>Social Security Death Index database SSDI</b><br>";
+    if(parselineresult[4] != ""){ssndetails += "VER. Start Date of issuing block: " + parselineresult[4] + "<br>"; issueyr = parselineresult[4]; }
+    if(parselineresult[5] != ""){ssndetails += "VER. End Date of issuing block: " + parselineresult[5] + "<br>";}
+    if(parselineresult[6] != ""){ssndetails += "VER. Estimated Age of person today:  " + parselineresult[6] + "<br>"; agereport = parselineresult[6];}
+    if(parselineresult[7] != ""){ssndetails += "VER. Issuing State: " + parselineresult[7] + " is " + statelong + "<br>";}
+    ssndetails += "<br><b>Social Security Death Index database SSDI as of 2013</b><br>";
     if(parselineresult[8] !=""){ssndetails += "SSDI Death count: " + parselineresult[8] + " of possible 9,999 in block<br>";deaths=parselineresult[8]}
     if(parselineresult[9] !=""){ssndetails += "SSDI Youngest Age: " + parselineresult[9] + "<br>";}
     if(parselineresult[10] !=""){ssndetails += "SSDI Average Age: " + parselineresult[10] + "<br>";}
