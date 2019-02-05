@@ -34,6 +34,7 @@ function reqListener () { //run when file is parsed
     var textlines = textout.split("\n");
     textlines.forEach(parseline);
     var ssndetails = '<h3>SSN Block ' + num + '-xxxx </h3> For U.S. individuals with a Social Security Number from this block, the following analysis gives you an idea of how old the person is, what state it was issued in, when it was issued, and of those that have a SSN from this block, what the death statistics are.<br>';
+    if (statecode != ""){ssndetails += "<img src=../img/s/"+statecode+".png width=25%><br>"}
     ssndetails += "<b>SSN10 details:</b><br>";
     if(parselineresult[1] != ""){ssndetails += "SSN10 State: " + parselineresult[1] + "<br>";}
     if(parselineresult[2] != ""){ssndetails += "SSN10 start Date: " + parselineresult[2] + "<br>";}
