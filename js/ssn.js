@@ -6,7 +6,7 @@ var state = {"AL": "Alabama","AK": "Alaska","AZ": "Arizona","AR": "Arkansas","CA
     
     
     
-    document.title = "Number Checker - SSN - Alabama - 1976 - 30% active";
+    
     var text = "";
     var i;
     var num = document.URL.substr(document.URL.lastIndexOf("/")+1).substring(0,6);
@@ -26,6 +26,9 @@ var foundline ="";
 var parselineresult="";
 
 function reqListener () { //run when file is parsed
+    var issueyr ="";
+    var agereport="";
+    var deaths="";
     textout = this.responseText;
     console.log(textout+"hi");    
     var textlines = textout.split("\n");
@@ -36,12 +39,12 @@ function reqListener () { //run when file is parsed
     if(parselineresult[2] != ""){ssndetails += "SSN10 start Date: " + parselineresult[2] + "<br>";}
     if(parselineresult[3] != ""){ssndetails += "SSN10 end Date: " + parselineresult[3] + "<br>";}
     ssndetails += "<br><b>Standard Web data details:</b><br>";
-    if(parselineresult[4] != ""){ssndetails += "VER. Start Date: " + parselineresult[4] + "<br>";}
+    if(parselineresult[4] != ""){ssndetails += "VER. Start Date: " + parselineresult[4] + "<br>"; issueyr = parselineresult[4]; }
     if(parselineresult[5] != ""){ssndetails += "VER. End Date: " + parselineresult[5] + "<br>";}
-    if(parselineresult[6] != ""){ssndetails += "VER. Age:  " + parselineresult[6] + "<br>";}
+    if(parselineresult[6] != ""){ssndetails += "VER. Age:  " + parselineresult[6] + "<br>"; agereport = parselineresult[6];}
     if(parselineresult[7] != ""){ssndetails += "VER. State: " + parselineresult[7] + " is " + statelong + "<br>";}
     ssndetails += "<br><b>Social Security Death Index database SSDI</b><br>";
-    if(parselineresult[8] !=""){ssndetails += "SSDI Death count: " + parselineresult[8] + " of possible 9,999 in block<br>";}
+    if(parselineresult[8] !=""){ssndetails += "SSDI Death count: " + parselineresult[8] + " of possible 9,999 in block<br>";deaths=parselineresult[8]}
     if(parselineresult[9] !=""){ssndetails += "SSDI Youngest Age: " + parselineresult[9] + "<br>";}
     if(parselineresult[10] !=""){ssndetails += "SSDI Average Age: " + parselineresult[10] + "<br>";}
     if(parselineresult[11] != ""){ssndetails += "SSDI Oldest Age: " + parselineresult[11] + "<br>";}
@@ -52,6 +55,7 @@ function reqListener () { //run when file is parsed
     if(parselineresult[16] != ""){ssndetails += "SSDI Average Death Year: " + parselineresult[16] + "<br>";}
     if(parselineresult[17] != ""){ssndetails += "SSDI Newest Death Year: " + parselineresult[17] + "<br>";}
     document.getElementById('ssnd').innerHTML = ssndetails;  
+    document.title = "Number Checker - SSN - " + statelong + " issue: " + issueyr + " est age: " + agereport + " deaths: " + deaths;
 }
   
   var oReq = new XMLHttpRequest();
