@@ -38,7 +38,7 @@ function reqListener () { //run when file is parsed
     else {ssndetails += "<img src=../img/s/US.png width=25%><br><br>";}
     if (p1 == 666){ssndetails += "<br><b> 666 is not a valid prefix (Area Number) for a SSN.</b>  The reason this is not used is most likely related to the religious association with this number and the mark of the beast, as found in the New Testament -  in the book of Revelation 13:15-18. The thinking was most likely it is not worth the possible outcry from those that received such a number to be labeled with the mark of the beast, so the number was skipped altogether. Surprisingly, no such was was made in the last 4 digit block, 1 per 10,000 block will get this designation.   More modern biblical scholars have identified possible earlier translation errors where this number given to the beast in Revelation may actually be listed as 616, which as this block was assigned to California - means you should point your pitch forks to the West Coast if you are so inclined. Look for the 616 block to be issued in CA from about 1987-1997. <br><br>  ";}
     if (p2 == 00){ssndetails += "<br><b> 00 in the middle section (Group Number) is not allowed in a valid SSN number, but this page is left to display this message.</b><br><br>"; }
-    ssndetails += "<b>SSN10 details:</b><br>";
+    ssndetails += "<a href="/articles/index.html">About This Data</a><br><b>SSN10 details:</b><br>";
     if(parselineresult[1] != ""){ssndetails += "SSN10 State: " + parselineresult[1] + "<br>";}
     if(parselineresult[2] != ""){ssndetails += "SSN10 start Date: " + parselineresult[2] + "<br>";}
     if(parselineresult[3] != ""){ssndetails += "SSN10 end Date: " + parselineresult[3] + "<br>";}
@@ -121,6 +121,13 @@ for(var i=0;i<p1s.length;i++){p1s[i].innerHTML = p1;}
 for(var i=0;i<p2s.length;i++){p2s[i].innerHTML = p2;}
 for(var i=0;i<nums.length;i++){nums[i].innerHTML = num;}
 
+var randompage3= parseInt(Math.random() * 899);
+var randompage2= parseInt(Math.random() * 99);
+if(randompage3 >99){}
+else if(randompage3 < 10){randompage3 = "00" + randompage3;}
+else {randompage3 = "0" + randompage3;}
+if(randompage2 >9){}
+else {randompage2 = "0" + randompage2;}
 var topp = '<div class="container" style="margin-top: 0%">\
 <div class="four columns value-prop">\
 \
@@ -131,6 +138,7 @@ var topp = '<div class="container" style="margin-top: 0%">\
 </div>\
 <div class="four columns value-prop">\
 <br><h1>SSN</h1>\
+<A href="' + randompage3 + "-" + randomopage 2 + '-xxxx.html">random SSN</a>\
 </div>\
 <div class="row"></div>\
 <h2>Social Security Number Detailed Analysis</h2><hr>\
