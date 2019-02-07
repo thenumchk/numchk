@@ -138,7 +138,7 @@ var topp = '<div class="container" style="margin-top: 0%">\
 </div>\
 <div class="four columns value-prop">\
 <br><h1>SSN</h1>\
-<A href="' + randompage3 + "-" + randomopage 2 + '-xxxx.html">random SSN</a>\
+<A href="' + randompage3 + "-" + randompage2 + '-xxxx.html">random SSN</a>\
 </div>\
 <div class="row"></div>\
 <h2>Social Security Number Detailed Analysis</h2><hr>\
