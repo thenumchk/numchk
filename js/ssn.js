@@ -38,7 +38,7 @@ function reqListener () { //run when file is parsed
     else {ssndetails += "<img src=../img/s/US.png width=25%><br><br>";}
     if (p1 == 666){ssndetails += "<br><b> 666 is not a valid prefix (Area Number) for a SSN.</b>  The reason this is not used is most likely related to the religious association with this number and the mark of the beast, as found in the New Testament -  in the book of Revelation 13:15-18. The thinking was most likely it is not worth the possible outcry from those that received such a number to be labeled with the mark of the beast, so the number was skipped altogether. Surprisingly, no such was was made in the last 4 digit block, 1 per 10,000 block will get this designation.   More modern biblical scholars have identified possible earlier translation errors where this number given to the beast in Revelation may actually be listed as 616, which as this block was assigned to California - means you should point your pitch forks to the West Coast if you are so inclined. Look for the 616 block to be issued in CA from about 1987-1997. <br><br>  ";}
     if (p2 == 00){ssndetails += "<br><b> 00 in the middle section (Group Number) is not allowed in a valid SSN number, but this page is left to display this message.</b><br><br>"; }
-    ssndetails += '<a href="/articles/index.html">About This Data</a><br><b>SSN10 details:</b><br>';
+    ssndetails += '<a href="articles/index.html">About This Data</a><br><b>SSN10 details:</b><br>';
     if(parselineresult[1] != ""){ssndetails += "SSN10 State: " + parselineresult[1] + "<br>";}
     if(parselineresult[2] != ""){ssndetails += "SSN10 start Date: " + parselineresult[2] + "<br>";}
     if(parselineresult[3] != ""){ssndetails += "SSN10 end Date: " + parselineresult[3] + "<br>";}
