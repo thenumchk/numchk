@@ -48,33 +48,18 @@
   <script src="js/jquery.min.js"></script>
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-
+   
 </head>
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-         <section class="header" style="margin-top: 10%">
-                <div class="value-props row">
-                    <div class="four columns value-prop">
-                        
-                        <a href="/"><img src="../../img/trim256.png" width=100px><br>&nbsp;&nbsp;&nbsp;&nbsp;NumChk Home</a>
-                        </div>
-                        <div class="four columns value-prop">
-                        <img src="../../img/ssnold-blur-250.jpg" height=100px >
-                        </div>
-                        <div class="four columns value-prop">
-                        <br><h1>SSN</h1>
-                        </div>
-                        <div class="row"></div>
-                        <h2>NumChk SSN Dataset</h2><hr>
-                        This tells more about the data shown on each of the SSN Block pages.<bR>
-                        </div>
-                    
+  <div id="t"></div>
+            
 
-                    
-
+<div class="container" style="margin-top: 0%">
+    <div class="row"><div style="margin-top: 0%">
+        This tells more about the data shown on each of the SSN Block pages.<bR>
 <table class="u-full-width">
     <thead><tr><th>Data</th><th>Detail</th></tr></thead>
 <tbody><tr><td><b>SSN10:</b></td> <td><img src="../../img/ssn10.PNG" width=100%><br>This is a DOS Executable created around 1995 by Paul Stira - a convicted hacker. This program was available on BBS systems (what many used prior to the internet) and serves as a good example of what was known about Social Security Numbers in 1995.  The program is shareware, and has approximately a 5 second delay after each check is run.  Most modern computers, including windows 10x64 has trouble runninng this program, so if you want to run it, use a dosbox install.  At Numchk, we ran 6 dosboxes (VM's) for about 100 hours of processing time to search the entire SSN space as it was easier than reverse engineering the program.  <br>
@@ -175,5 +160,30 @@ The reference to Pocket Book SSN is very interesting. By 2007, a common list of 
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script>var randompage3= parseInt(Math.random() * 899);
+    var randompage2= parseInt(Math.random() * 99);
+    if(randompage3 >99){}
+    else if(randompage3 < 10){randompage3 = "00" + randompage3;}
+    else {randompage3 = "0" + randompage3;}
+    if(randompage2 >9){}
+    else {randompage2 = "0" + randompage2;}
+    var topp = '<div class="container" style="margin-top: 0%">\
+<div class="four columns value-prop" align=center>\
+\
+<a href="/"><img src="../../img/trim256.png" width=100px><br>&nbsp;&nbsp;&nbsp;&nbsp;NumChk Home</a>\
+</div>\
+<div class="four columns value-prop">\
+<img src="../../img/ssnold-blur-250.jpg" height=100px >\
+</div>\
+<div class="four columns value-prop" align=center>\
+<br>\
+<A href="../' + randompage3 + "-" + randompage2 + '-xxxx.html"><h1>SSN</h1>random SSN</a>\
+</div>\
+<div class="row" align=center>\
+<h2>NumChk SSN Dataset</h2><hr>\
+</div></div>'; 
+   
+    //top replace
+    document.getElementById('t').innerHTML = topp;</script>    
 </body>
 </html>
