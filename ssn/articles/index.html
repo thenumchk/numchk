@@ -60,9 +60,7 @@
 <div class="container" style="margin-top: 0%">
     <div class="row"><div style="margin-top: 0%">
         This tells more about the data shown on each of the SSN Block pages.<bR>
-<table class="u-full-width">
-    <thead><tr><th>Data</th><th>Detail</th></tr></thead>
-<tbody><tr><td><b>SSN10:</b></td> <td><img src="../../img/ssn10.PNG" width=100%><br>This is a DOS Executable created around 1995 by Paul Stira - a convicted hacker. This program was available on BBS systems (what many used prior to the internet) and serves as a good example of what was known about Social Security Numbers in 1995.  The program is shareware, and has approximately a 5 second delay after each check is run.  Most modern computers, including windows 10x64 has trouble runninng this program, so if you want to run it, use a dosbox install.  At Numchk, we ran 6 dosboxes (VM's) for about 100 hours of processing time to search the entire SSN space as it was easier than reverse engineering the program.  <br>
+<b>SSN10:</b><br><img src="../../img/ssn10.PNG" width=100%><br>This is a DOS Executable created around 1995 by Paul Stira - a convicted hacker. This program was available on BBS systems (what many used prior to the internet) and serves as a good example of what was known about Social Security Numbers in 1995.  The program is shareware, and has approximately a 5 second delay after each check is run.  Most modern computers, including windows 10x64 has trouble runninng this program, so if you want to run it, use a dosbox install.  At Numchk, we ran 6 dosboxes (VM's) for about 100 hours of processing time to search the entire SSN space as it was easier than reverse engineering the program.  <br>
     <img src="../../img/ssn-dosbox-6x.png" width=100%> <br>This data is surprisingly accurate for even what we have today compared to the SSDI (see below) and if someone wants a quick lookup, this is a nice program to use and parse the output. There are several articles about the Antics of Paul Stira (AKA Scorpion) and the small hacker crew MOD (Masters of Destruction).  <br> from the readme: <br>------- <br>              <B>SSN v1.0 - Social Security Number Validator</b><br><br>
 
     This program can determine if a Social Security Number is valid, and can
@@ -124,27 +122,28 @@ The reference to Pocket Book SSN is very interesting. By 2007, a common list of 
 987-65-4327 used in movies and advertising. invalid as area over 900 <br>
 987-65-4328 used in movies and advertising. invalid as area over 900 <br>
 987-65-4329 used in movies and advertising. invalid as area over 900 <br>
-</td></tr>
-<tr><td><b>SSN10 State:</b></td> <td>If Different than the standard web data, a state will be listed. There are several type-o's in P Stira's program in state names, those have been omitted from the results. In a few instances, His dataset shows dual state or alternate state assignment that is interesting.<br></td></tr>
-<tr><td><b>SSN10 start Date:</b></td> <td>The Start date SSN10 shows for when SSN's were first isssued in this block<br></td></tr>
-<tr><td><b>SSN10 end Date:</b></td> <td>The End date that SSN10 shows for when this block was fully issued.<br></td></tr>
-<tr><td><b>Standard Web:</b></td> <td>Many easily searched internet sites will return this data</td></tr>
-<tr><td><b>VER. Start Date of issuing block:</b></td> <td>standard web data</td></tr>
-<tr><td><b>VER. End Date of issuing block:</b></td> <td>standard web data</td></tr>
-<tr><td><b>VER. Estimated Age of person with this number today:</b></td> <td>estimated age as of 2018 for a person with a number in this block. this is an extremely rough number.  prior to 1988 SSN's were issued around the time a person entered working age (~14 years of age) but a person could have been much older. it wasn't until 1988 that issuance at birth was required (or immigration) </td></tr>
-<tr><td><b>VER. Issuing State prior to 2011:</b></td> <td>The most likely state that issued th is number. States were no longer issued blocks in 2011, when Randomization started. numbers issued prior to 2011 can still be traced to a state of issuance.</td></tr>
-<tr><td><b>SSDI</b></td> <td><img src="../../img/ssn-DMF.PNG" width=100%><br>Social Security Death Index - a national register at over 88 Million records. The dataset processed at NumChk was from 2013, 10GB (!) of text that a generous man from New Hampshire purchased (freedom of information act) to go on a political rant - Many thanks Tom!  Many credit agencies use this data for fraud detection an pay $6,000K or more for access to a dataset that is updated around once per month with the full Name, Date of Birth, Date of death and Social Security Number of a person that has died. Up and till around 2009 this database also contained the zip code where the death occurred, but the dataset no longer has this data present. The important thing is that once someone has died with a SSN, the number is permenantly retired, never to be used again. if someone is using a number that is in this list, it is most likely a fraudulent use - so an easy thing to check. the NumChk team accessed this database from 2013 </td></tr>
-<tr><td><b>SSDI Death count:</b></td> <td>all records in a block are added up and this is how many records of deaths in this block.  This gives an idea of your liklihood of pulling a number at random from this block and it being current or not.</td></tr>
-<tr><td><b>SSDI Youngest Age:</b></td> <td>What is the Youngest age of a person that died in this block. 0 will mean died at or near birth.</td></tr>
-<tr><td><b>SSDI Average Age:</b></td> <td>For Death records in this block, what is the average age at death.</td></tr>
-<tr><td><b>SSDI Oldest Age:</b></td> <td>What is the reported age (Death - Birth) of the oldest person in this block. </td></tr>
-<tr><td><b>SSDI Average Birth Year:</b></td> <td>after 1988, this starts to be very useful to help date when the block was started</td></tr>
-<tr><td><b>SSDI Newest Birth Year:</b></td> <td>What is the most recent year a number was assigned to this block (and a person died).</td></tr>
-<tr><td><b>..The exact age of the SSN Block...</b></td> <td>It seems that the date between newest Birth and Oldest Death is very good at predicting what approximate date a block was used to issue SSN's in a particular state. The old way was to look at the list that was published by SSN at what was the last block used per year, but they stopped publishing this data some time ago. if anyone has access to it, please send a note to us a info@numchk.com</td></tr>
-<tr><td><b>SSDI Oldest Death Year:</b></td> <td>of Someone that died that had a SSN in this block, what is the oldest date on record. The reason this helps sandwich the block date is maybe right after someone got a SSN assigned they died. the first person in the block that had this happen helps set the lower bounds for when the record was used.</td></tr>
-<tr><td><b>SSDI Average Death Year:</b></td> <td>of people that have a SSN in this block, what year have they died on average. forces you to think a little about your own mortality.</td></tr>
-<tr><td><b>SSDI Newest Death Year:</b></td> <td>what is the most recent year a person in this block died?</td></tr>
-  </tbody></table>
+<hr>
+<b>SSN10 State:</b><br>If Different than the standard web data, a state will be listed. There are several type-o's in P Stira's program in state names, those have been omitted from the results. In a few instances, His dataset shows dual state or alternate state assignment that is interesting.<br><hr>
+<b>SSN10 start Date:</b>The Start date SSN10 shows for when SSN's were first isssued in this block<br><hr>
+<b>SSN10 end Date:</b>The End date that SSN10 shows for when this block was fully issued.<br><hr>
+<b>Standard Web:</b>Many easily searched internet sites will return this data<hr>
+<b>VER. Start Date of issuing block:</b>standard web data<hr>
+<b>VER. End Date of issuing block:</b><br>standard web data<hr>
+<b>VER. Estimated Age of person with this number today:</b><br>estimated age as of 2018 for a person with a number in this block. this is an extremely rough number.  prior to 1988 SSN's were issued around the time a person entered working age (~14 years of age) but a person could have been much older. it wasn't until 1988 that issuance at birth was required (or immigration) <hr>
+<b>VER. Issuing State prior to 2011:</b><br>The most likely state that issued th is number. States were no longer issued blocks in 2011, when Randomization started. numbers issued prior to 2011 can still be traced to a state of issuance.<hr>
+<b>SSDI</b><br><img src="../../img/ssn-DMF.PNG" width=100%><br>Social Security Death Index - a national register at over 88 Million records. The dataset processed at NumChk was from 2013, 10GB (!) of text that a generous man from New Hampshire purchased (freedom of information act) to go on a political rant - Many thanks Tom!  Many credit agencies use this data for fraud detection an pay $6,000K or more for access to a dataset that is updated around once per month with the full Name, Date of Birth, Date of death and Social Security Number of a person that has died. Up and till around 2009 this database also contained the zip code where the death occurred, but the dataset no longer has this data present. The important thing is that once someone has died with a SSN, the number is permenantly retired, never to be used again. if someone is using a number that is in this list, it is most likely a fraudulent use - so an easy thing to check. the NumChk team accessed this database from 2013. <br> <img src="../../img/ssdiraw.PNG" width=100%><br> Example data in SSDI master file.<hr>
+
+<b>SSDI Death count:</b><br>all records in a block are added up and this is how many records of deaths in this block.  This gives an idea of your liklihood of pulling a number at random from this block and it being current or not.<hr>
+<b>SSDI Youngest Age:</b><br>What is the Youngest age of a person that died in this block. 0 will mean died at or near birth.<hr>
+<b>SSDI Average Age:</b><br>For Death records in this block, what is the average age at death.<hr>
+<b>SSDI Oldest Age:</b><br>What is the reported age (Death - Birth) of the oldest person in this block. <hr>
+<b>SSDI Average Birth Year:</b><br>after 1988, this starts to be very useful to help date when the block was started<hr>
+<b>SSDI Newest Birth Year:</b><br>What is the most recent year a number was assigned to this block (and a person died).<hr>
+<b>..The exact age of the SSN Block...</b><br>It seems that the date between newest Birth and Oldest Death is very good at predicting what approximate date a block was used to issue SSN's in a particular state. The old way was to look at the list that was published by SSN at what was the last block used per year, but they stopped publishing this data some time ago. if anyone has access to it, please send a note to us a info@numchk.com<hr>
+<b>SSDI Oldest Death Year:</b><br>of Someone that died that had a SSN in this block, what is the oldest date on record. The reason this helps sandwich the block date is maybe right after someone got a SSN assigned they died. the first person in the block that had this happen helps set the lower bounds for when the record was used.<hr>
+<b>SSDI Average Death Year:</b><br>of people that have a SSN in this block, what year have they died on average. forces you to think a little about your own mortality.<hr>
+<b>SSDI Newest Death Year:</b><br>what is the most recent year a person in this block died?<hr>
+  
                               </section>
 
 
