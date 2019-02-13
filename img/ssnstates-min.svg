@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="87.421mm" height="359.33mm" version="1.1" viewBox="0 0 87.420647 359.32919" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<defs>
+<clipPath id="i">
+<path d="m3.0377-0.31975h599.54z"/>
+</clipPath>
+<clipPath id="d">
+<path d="m4.9562 10.392h60.274v36.772h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 10.392h97.046v36.772h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 10.392h66.029v36.772h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 10.392h87.133v36.772h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 55.797h60.274v36.772h-60.274z"/>
+</clipPath>
+<clipPath id="a">
+<path d="m69.227 55.797h97.046v36.772h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 55.797h66.029v36.772h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 55.797h87.133v36.772h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 101.2h60.274v18.386h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 101.2h97.046v18.386h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 101.2h66.029v18.386h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 101.2h87.133v18.386h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 128.22h60.274v18.386h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 128.22h97.046v18.386h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 128.22h66.029v18.386h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 128.22h87.133v18.386h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 155.24h60.274v18.386h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 155.24h97.046v18.386h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 155.24h66.029v18.386h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 155.24h87.133v18.386h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 182.26h60.274v36.772h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 182.26h97.046v36.772h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 182.26h66.029v36.772h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 182.26h87.133v36.772h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 227.83h60.274v36.772h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 227.83h97.046v36.772h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 227.83h66.029v36.772h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 227.83h87.133v36.772h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 273.23h60.274v18.386h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 273.23h97.046v18.386h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 273.23h66.029v18.386h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 273.23h87.133v18.386h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 300.25h60.274v18.386h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 300.25h97.046v18.386h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 300.25h66.029v18.386h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 300.25h87.133v18.386h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 327.27h60.274v18.386h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 327.27h97.046v18.386h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 327.27h66.029v18.386h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 327.27h87.133v18.386h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 354.29h60.274v18.386h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 354.29h97.046v18.386h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 354.29h66.029v18.386h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 354.29h87.133v18.386h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 381.31h60.274v18.386h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 381.31h97.046v18.386h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 381.31h66.029v18.386h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 381.31h87.133v18.386h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 408.49h60.274v36.612h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 408.49h97.046v36.612h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 408.49h66.029v36.612h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 408.49h87.133v36.612h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 453.89h60.274v36.772h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 453.89h97.046v36.772h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 453.89h66.029v36.772h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 453.89h87.133v36.772h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 499.3h60.274v55.158h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 499.3h97.046v55.158h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 499.3h66.029v55.158h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 499.3h87.133v55.158h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 563.09h60.274v36.772h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 563.09h97.046v36.772h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 563.09h66.029v36.772h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 563.09h87.133v36.772h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 608.49h60.274v36.772h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 608.49h97.046v36.772h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 608.49h66.029v36.772h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 608.49h87.133v36.772h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 653.9h60.274v55.158h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 653.9h97.046v55.158h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 653.9h66.029v55.158h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 653.9h87.133v55.158h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 717.69h60.274v18.386h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 717.69h97.046v18.386h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 717.69h66.029v18.386h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 717.69h87.133v18.386h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 744.87h60.274v36.772h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 744.87h97.046v36.772h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 744.87h66.029v36.772h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 744.87h87.133v36.772h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 790.27h60.274v18.386h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 790.27h97.046v18.386h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 790.27h66.029v18.386h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 790.27h87.133v18.386h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 817.29h60.274v36.772h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 817.29h97.046v36.772h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 817.29h66.029v36.772h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 817.29h87.133v36.772h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 862.7h60.274v36.772h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 862.7h97.046v36.772h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 862.7h66.029v36.772h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 862.7h87.133v36.772h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 908.1h60.274v36.772h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 908.1h97.046v36.772h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 908.1h66.029v36.772h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 908.1h87.133v36.772h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 953.51h60.274v36.772h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 953.51h97.046v36.772h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 953.51h66.029v36.772h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 953.51h87.133v36.772h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 998.91h60.274v18.386h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 998.91h97.046v18.386h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 998.91h66.029v18.386h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 998.91h87.133v18.386h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 1026.1h60.274v55.158h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 1026.1h97.046v55.158h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 1026.1h66.029v55.158h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 1026.1h87.133v55.158h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 1089.9h60.274v36.772h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 1089.9h97.046v36.772h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 1089.9h66.029v36.772h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 1089.9h87.133v36.772h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 1135.3h60.274v36.772h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 1135.3h97.046v36.772h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 1135.3h66.029v36.772h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 1135.3h87.133v36.772h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 1180.7h60.274v36.772h-60.274z"/>
+</clipPath>
+<clipPath>
+<path d="m69.227 1180.7h97.046v36.772h-97.046z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 1180.7h66.029v36.772h-66.029z"/>
+</clipPath>
+<clipPath>
+<path d="m240.3 1180.7h87.133v36.772h-87.133z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 1226.1h161.32v55.158h-161.32z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 1226.1h157.16v55.158h-157.16z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 1289.9h161.32v18.386h-161.32z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 1289.9h157.16v18.386h-157.16z"/>
+</clipPath>
+<clipPath>
+<path d="m4.9562 1316.9h161.32v18.386h-161.32z"/>
+</clipPath>
+<clipPath>
+<path d="m170.27 1316.9h157.16v18.386h-157.16z"/>
+</clipPath>
+<clipPath id="g">
+<path d="m2.0784-5.276h618.09v1346.3h-618.09z"/>
+</clipPath>
+<clipPath id="f">
+<path d="m625.12-2.2383h115.91z"/>
+</clipPath>
+<clipPath id="e">
+<path d="m622.08-5.276h125.34v1346.3h-125.34z"/>
+</clipPath>
+<clipPath id="c">
+<path d="m4.9562 55.797h60.274v36.772h-60.274z"/>
+</clipPath>
+<clipPath id="b">
+<path d="m4.9562 55.797h60.274v36.772h-60.274z"/>
+</clipPath>
+<clipPath id="h">
+<path d="m4.9562 1180.7h60.274v36.772h-60.274z"/>
+</clipPath>
+</defs>
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title/>
+</cc:Work>
+</rdf:RDF>
+</metadata>
+<g transform="translate(-29.697 -6.6465)">
+<text x="31.248001" y="16.304693" fill="#000000" font-family="sans-serif" font-size="3.5278px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.248001" y="18.984978" style="line-height:1"/><tspan x="31.248001" y="22.512754" style="line-height:1"/></text>
+<path d="m73.902 327.62h42.607v31.39h-42.607z" fill="#fbe4d5" fill-rule="evenodd"/>
+<path transform="matrix(.78345 0 0 1.734 24.496 -1735.7)" d="m7.3544 1190h55.477v18.226h-55.477z" clip-path="url(#h)" fill="#d9d9d9" fill-rule="evenodd"/>
+<path d="m92.465 17.852h24.094v309.77h-24.094z" fill="#fbe4d5" fill-rule="evenodd"/>
+<path transform="matrix(.3295 0 0 16.844 71.479 -1075.4)" d="m7.3544 64.91h55.477v18.386h-55.477z" clip-path="url(#b)" fill="#d9d9d9" fill-rule="evenodd"/>
+<g transform="matrix(.26458 0 0 .26458 -69.462 -298.1)" clip-path="url(#i)"></g>
+<path transform="matrix(1.5614 0 0 .57809 18.486 -4.2917)" d="m7.3544 19.505h55.477v18.386h-55.477z" clip-path="url(#d)" fill="#d9e2f3" fill-rule="evenodd"/>
+<path d="m46.941 17.694h26.582v310.02h-26.582z" fill="#fbe4d5" fill-rule="evenodd"/>
+<path transform="matrix(.26458 0 0 .26458 28.848 4.6026)" d="m71.465 74.183h92.409v18.386h-92.409z" clip-path="url(#a)" fill="#fbe4d5" fill-rule="evenodd"/>
+<g transform="matrix(.26458 0 0 .26458 28.894 4.447)" clip-path="url(#g)"></g>
+<g transform="matrix(.26458 0 0 .26458 28.894 4.447)" clip-path="url(#f)"></g>
+<g transform="matrix(.26458 0 0 .26458 28.894 4.447)" clip-path="url(#e)"></g>
+<text x="32.883923" y="13.517857" fill="#000000" font-family="sans-serif" font-size="22.578px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="32.883923" y="13.517857" font-size="4.9389px" stroke-width=".26458">SSN</tspan></text>
+<text x="47.431145" y="13.463329" fill="#000000" font-family="sans-serif" font-size="22.578px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="47.431145" y="13.463329" font-size="4.9389px" stroke-width=".26458">State</tspan></text>
+<text x="78.042412" y="13.519074" fill="#000000" font-family="sans-serif" font-size="22.578px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="78.042412" y="13.519074" font-size="4.9389px" stroke-width=".26458">SSN</tspan></text>
+<text x="96.798973" y="13.308974" fill="#000000" font-family="sans-serif" font-size="22.578px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="96.798973" y="13.308974" font-size="4.9389px" stroke-width=".26458">State</tspan></text>
+<text x="47.341228" y="16.13271" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.341228" y="19.349051" style="line-height:1"/><tspan x="47.341228" y="23.582384" style="line-height:1">New </tspan><tspan x="47.341228" y="27.815716" style="line-height:1">Hampshire</tspan></text>
+<text x="47.341228" y="27.699448" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.341228" y="30.915789" style="line-height:1"/><tspan x="47.341228" y="35.14912" style="line-height:1">Maine</tspan></text>
+<text x="47.723633" y="34.79211" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.723633" y="38.00845" style="line-height:1"/><tspan x="47.723633" y="42.241783" style="line-height:1">Vermont</tspan></text>
+<path transform="matrix(.30409 0 0 16.844 27.742 -1075.6)" d="m7.3544 64.91h55.477v18.386h-55.477z" clip-path="url(#c)" fill="#d9d9d9" fill-rule="evenodd"/>
+<path d="m29.969 6.795 0.5312 352.47" fill="none" stroke="#000" stroke-width=".47624px"/>
+<path d="m116.89 17.95-87.072 1.36e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.81 30.09-86.75-0.0081" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.75 37.23-86.883 1.36e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.78 44.379-86.742 1.36e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.75 51.553-86.693-0.024669" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.77 63.55-87.073-0.0081" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.69 75.605-86.635-0.0081" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.66 82.746-86.626 1.36e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.6 89.895-86.378 1.36e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.6 97.044-86.378 1.3e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.6 104.19-86.378 1.3e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.44 111.34-86.378 1.3e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.44 123.4-86.378 1.4e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.31 135.41-86.378 1.3e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.37 152.29-86.378 1.4e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.44 164.3-86.378 1.3e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.44 176.32-86.378 1.4e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.47 193.19-86.378 1.3e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.44 200.34-86.378 1.4e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.58 212.41-86.378 1.3e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.41 219.55-86.378 1.3e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.58 231.56-86.378 1.4e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.58 243.57-86.378 1.4e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.54 255.59-86.378 1.4e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.54 267.6-86.378 1.4e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.61 274.75-86.378 1.4e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.63 291.67-86.378 1.4e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.68 303.68-86.378 1.4e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.74 315.7-86.378 1.4e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.74 327.71-86.378 1.4e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.74 344.59-86.378 1.4e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m116.81 351.74-86.378 1.4e-4" fill="none" stroke="#000" stroke-width=".49986px"/>
+<path d="m117.12 359.27-86.858 1.4e-4" fill="none" stroke="#000" stroke-width=".50125px"/>
+<path d="m73.413 6.795 0.5312 352.47" fill="none" stroke="#000" stroke-width=".47624px"/>
+<path d="m46.678 6.857 0.53166 320.83" fill="none" stroke="#000" stroke-width=".45456px"/>
+<path d="m91.94 6.8756 0.53166 320.83" fill="none" stroke="#000" stroke-width=".45456px"/>
+<path d="m116.73 6.6508 2e-3 352.78" fill="none" stroke="#000" stroke-width=".4765px"/>
+<path d="m116.96 6.8964-87.221 0.10236" fill="none" stroke="#000" stroke-width=".49986px"/>
+<text x="46.881306" y="43.098087" fill="#000000" font-family="sans-serif" font-size="3.5278px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="46.881306" y="45.77837" style="line-height:1"/><tspan x="46.881306" y="49.306149" style="line-height:1">Massachusetts</tspan></text>
+<text x="47.410473" y="51.81049" fill="#000000" font-family="sans-serif" font-size="3.5278px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.410473" y="54.490772" style="line-height:1"/><tspan x="47.410473" y="58.018551" style="line-height:1">Rhode Island</tspan></text>
+<text x="47.518993" y="62.998585" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.518993" y="66.214928" style="line-height:1"/><tspan x="47.518993" y="70.448257" style="line-height:1">Connecticut</tspan></text>
+<text x="47.341228" y="73.34568" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.341228" y="76.562019" style="line-height:1"/><tspan x="47.341228" y="80.795357" style="line-height:1">New York</tspan></text>
+<text x="47.410473" y="88.672615" fill="#000000" font-family="sans-serif" font-size="3.5278px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.410473" y="91.352898" style="line-height:1"/><tspan x="47.410473" y="94.880676" style="line-height:1">Pennsylvania</tspan></text>
+<text x="47.341228" y="94.540695" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.341228" y="97.757034" style="line-height:1"/><tspan x="47.341228" y="101.99037" style="line-height:1">Maryland</tspan></text>
+<text x="47.341228" y="80.196503" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.341228" y="83.412842" style="line-height:1"/><tspan x="47.341228" y="87.646179" style="line-height:1">New Jersey</tspan></text>
+<text x="47.341228" y="102.02463" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.341228" y="105.24097" style="line-height:1"/><tspan x="47.341228" y="109.4743" style="line-height:1">Delaware</tspan></text>
+<text x="47.723633" y="110.70864" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.723633" y="113.92498" style="line-height:1"/><tspan x="47.723633" y="118.15832" style="line-height:1">Virginia</tspan></text>
+<text x="47.410473" y="138.9812" fill="#000000" font-family="sans-serif" font-size="3.5278px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.410473" y="141.66148" style="line-height:1"/><tspan x="47.410473" y="145.18927" style="line-height:1">North Carolina</tspan></text>
+<text x="47.639572" y="123.77717" fill="#000000" font-family="sans-serif" font-size="3.5278px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.639572" y="126.45745" style="line-height:1"/><tspan x="47.639572" y="129.98523" style="line-height:1">West Virginia</tspan></text>
+<text x="47.524162" y="152.83406" fill="#000000" font-family="sans-serif" font-size="3.5278px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.524162" y="155.51434" style="line-height:1"/><tspan x="47.524162" y="159.04213" style="line-height:1">South Carolina</tspan></text>
+<text x="47.518993" y="163.58746" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.518993" y="166.8038" style="line-height:1"/><tspan x="47.518993" y="171.03714" style="line-height:1">Georgia</tspan></text>
+<text x="47.341228" y="179.51915" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.341228" y="182.73549" style="line-height:1"/><tspan x="47.341228" y="186.96883" style="line-height:1">Florida</tspan></text>
+<text x="47.341228" y="200.13779" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.341228" y="203.35413" style="line-height:1"/><tspan x="47.341228" y="207.58746" style="line-height:1">Indiana</tspan></text>
+<text x="47.518993" y="191.22701" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.518993" y="194.44334" style="line-height:1"/><tspan x="47.518993" y="198.67668" style="line-height:1">Ohio</tspan></text>
+<text x="47.341228" y="210.12581" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.341228" y="213.34215" style="line-height:1"/><tspan x="47.341228" y="217.57549" style="line-height:1">Illinois</tspan></text>
+<text x="47.616146" y="231.15073" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.616146" y="234.36707" style="line-height:1"/><tspan x="47.616146" y="238.6004" style="line-height:1">Wisconsin</tspan></text>
+<text x="47.341228" y="242.18764" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.341228" y="245.40398" style="line-height:1"/><tspan x="47.341228" y="249.63731" style="line-height:1">Kentucky</tspan></text>
+<text x="47.769108" y="255.19948" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.769108" y="258.41583" style="line-height:1"/><tspan x="47.769108" y="262.64914" style="line-height:1">Tennessee</tspan></text>
+<text x="47.341228" y="277.28275" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.341228" y="280.49908" style="line-height:1"/><tspan x="47.341228" y="284.73242" style="line-height:1">Mississippi</tspan></text>
+<text x="47.723633" y="265.21585" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.723633" y="268.43219" style="line-height:1"/><tspan x="47.723633" y="272.66553" style="line-height:1">Alabama</tspan></text>
+<text x="47.723633" y="290.92767" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.723633" y="294.14401" style="line-height:1"/><tspan x="47.723633" y="298.37735" style="line-height:1">Arkansas</tspan></text>
+<text x="47.518993" y="315.25049" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.518993" y="318.46683" style="line-height:1"/><tspan x="47.518993" y="322.70016" style="line-height:1">Oklahoma</tspan></text>
+<text x="47.341228" y="219.92314" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.341228" y="223.13948" style="line-height:1"/><tspan x="47.341228" y="227.37282" style="line-height:1">Michigan</tspan></text>
+<text x="47.341228" y="303.00882" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="47.341228" y="306.22516" style="line-height:1"/><tspan x="47.341228" y="310.4585" style="line-height:1">Louisiana</tspan></text>
+<text x="30.567644" y="17.381926" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.567644" y="20.598267" font-size="4.2333px" style="line-height:1"/><tspan x="30.567644" y="24.8316" font-size="3.5278px" style="line-height:1">001-003</tspan></text>
+<text x="30.909521" y="27.413639" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.909521" y="30.62998" font-size="4.2333px" style="line-height:1"/><tspan x="30.909521" y="34.863312" font-size="3.5278px" style="line-height:1">004-007</tspan></text>
+<text x="30.535345" y="35.084274" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.535345" y="38.300613" font-size="4.2333px" style="line-height:1"/><tspan x="30.535345" y="42.533947" font-size="3.5278px" style="line-height:1">008-009</tspan></text>
+<text x="30.722433" y="42.006554" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.722433" y="45.222893" font-size="4.2333px" style="line-height:1"/><tspan x="30.722433" y="49.456226" font-size="3.5278px" style="line-height:1">010-034</tspan></text>
+<text x="30.535345" y="51.641621" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.535345" y="54.85796" font-size="4.2333px" style="line-height:1"/><tspan x="30.535345" y="59.091293" font-size="3.5278px" style="line-height:1">035-039</tspan></text>
+<text x="30.441801" y="63.989475" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.441801" y="67.205818" font-size="4.2333px" style="line-height:1"/><tspan x="30.441801" y="71.439148" font-size="3.5278px" style="line-height:1">040-049</tspan></text>
+<text x="30.161167" y="72.969727" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.161167" y="76.186066" font-size="4.2333px" style="line-height:1"/><tspan x="30.161167" y="80.419403" font-size="3.5278px" style="line-height:1">050-134</tspan></text>
+<text x="30.254711" y="80.359734" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.254711" y="83.576073" font-size="4.2333px" style="line-height:1"/><tspan x="30.254711" y="87.80941" font-size="3.5278px" style="line-height:1">135-158</tspan></text>
+<text x="30.348255" y="87.936821" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.348255" y="91.15316" font-size="4.2333px" style="line-height:1"/><tspan x="30.348255" y="95.386497" font-size="3.5278px" style="line-height:1">159-211</tspan></text>
+<text x="30.909521" y="95.326828" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.909521" y="98.543167" font-size="4.2333px" style="line-height:1"/><tspan x="30.909521" y="102.7765" font-size="3.5278px" style="line-height:1">212-220</tspan></text>
+<text x="31.032413" y="101.78139" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.032413" y="104.99773" font-size="4.2333px" style="line-height:1"/><tspan x="31.032413" y="109.23106" font-size="3.5278px" style="line-height:1">221-222</tspan></text>
+<text x="30.628889" y="108.89075" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.628889" y="112.10709" font-size="4.2333px" style="line-height:1"/><tspan x="30.628889" y="116.34042" font-size="3.5278px" style="line-height:1">223-231</tspan></text>
+<text x="30.628889" y="114.22278" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.628889" y="117.43912" font-size="4.2333px" style="line-height:1"/><tspan x="30.628889" y="121.67245" font-size="3.5278px" style="line-height:1">691-699</tspan></text>
+<text x="30.877422" y="123.01046" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.877422" y="126.2268" font-size="4.2333px" style="line-height:1"/><tspan x="30.877422" y="130.46013" font-size="3.5278px" style="line-height:1">232-236</tspan></text>
+<text x="31.127903" y="140.05464" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.127903" y="140.05464" font-size="3.5278px" stroke-width=".26458" style="line-height:1">232</tspan></text>
+<text x="30.845324" y="137.8895" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.845324" y="141.10583" font-size="4.2333px" style="line-height:1"/><tspan x="30.845324" y="145.33917" font-size="3.5278px" style="line-height:1">237-246</tspan></text>
+<text x="30.909521" y="143.22153" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.909521" y="146.43787" font-size="4.2333px" style="line-height:1"/><tspan x="30.909521" y="150.6712" font-size="3.5278px" style="line-height:1">681-690</tspan></text>
+<text x="31.093859" y="150.04749" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.093859" y="153.26382" font-size="4.2333px" style="line-height:1"/><tspan x="31.093859" y="157.49716" font-size="3.5278px" style="line-height:1">247-251</tspan></text>
+<text x="30.906769" y="154.54039" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.906769" y="157.75673" font-size="4.2333px" style="line-height:1"/><tspan x="30.906769" y="161.99007" font-size="3.5278px" style="line-height:1">654-658</tspan></text>
+<text x="31.313046" y="162.27246" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.313046" y="165.4888" font-size="4.2333px" style="line-height:1"/><tspan x="31.313046" y="169.72214" font-size="3.5278px" style="line-height:1">252-260</tspan></text>
+<text x="30.845324" y="166.92311" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.845324" y="170.13945" font-size="4.2333px" style="line-height:1"/><tspan x="30.845324" y="174.37279" font-size="3.5278px" style="line-height:1">667-675</tspan></text>
+<text x="30.815977" y="179.6396" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.815977" y="182.85594" font-size="4.2333px" style="line-height:1"/><tspan x="30.815977" y="187.08928" font-size="3.5278px" style="line-height:1">589-595</tspan></text>
+<text x="30.815977" y="183.81976" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.815977" y="187.0361" font-size="4.2333px" style="line-height:1"/><tspan x="30.815977" y="191.26944" font-size="3.5278px" style="line-height:1">766-772</tspan></text>
+<text x="31.158056" y="191.0869" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.158056" y="194.30324" font-size="4.2333px" style="line-height:1"/><tspan x="31.158056" y="198.53658" font-size="3.5278px" style="line-height:1">268-303</tspan></text>
+<text x="31.313046" y="200.65775" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.313046" y="203.87408" font-size="4.2333px" style="line-height:1"/><tspan x="31.313046" y="208.10742" font-size="3.5278px" style="line-height:1">303-317</tspan></text>
+<text x="31.219501" y="209.91864" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.219501" y="213.13498" font-size="4.2333px" style="line-height:1"/><tspan x="31.219501" y="217.36832" font-size="3.5278px" style="line-height:1">318-361</tspan></text>
+<text x="31.283699" y="219.36661" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.283699" y="222.58295" font-size="4.2333px" style="line-height:1"/><tspan x="31.283699" y="226.81628" font-size="3.5278px" style="line-height:1">362-386</tspan></text>
+<text x="31.500135" y="243.68814" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.500135" y="246.90448" font-size="4.2333px" style="line-height:1"/><tspan x="31.500135" y="251.13782" font-size="3.5278px" style="line-height:1">400-407</tspan></text>
+<text x="31.219501" y="252.91692" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.219501" y="256.13327" font-size="4.2333px" style="line-height:1"/><tspan x="31.219501" y="260.36658" font-size="3.5278px" style="line-height:1">408-415</tspan></text>
+<text x="31.158056" y="257.75189" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.158056" y="260.96823" font-size="4.2333px" style="line-height:1"/><tspan x="31.158056" y="265.20157" font-size="3.5278px" style="line-height:1">756-763</tspan></text>
+<text x="31.283699" y="264.64206" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.283699" y="267.8584" font-size="4.2333px" style="line-height:1"/><tspan x="31.283699" y="272.09174" font-size="3.5278px" style="line-height:1">416-424</tspan></text>
+<text x="31.470787" y="272.40625" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.470787" y="275.62259" font-size="4.2333px" style="line-height:1"/><tspan x="31.470787" y="279.85593" font-size="3.5278px" style="line-height:1">425-428</tspan></text>
+<text x="31.470787" y="276.71201" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.470787" y="279.92834" font-size="4.2333px" style="line-height:1"/><tspan x="31.470787" y="284.16168" font-size="3.5278px" style="line-height:1">587-588</tspan></text>
+<text x="31.564333" y="281.9505" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.564333" y="285.16684" font-size="4.2333px" style="line-height:1"/><tspan x="31.564333" y="289.40018" font-size="3.5278px" style="line-height:1">752-755</tspan></text>
+<text x="31.500135" y="289.36987" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.500135" y="292.58621" font-size="4.2333px" style="line-height:1"/><tspan x="31.500135" y="296.81955" font-size="3.5278px" style="line-height:1">429-432</tspan></text>
+<text x="31.564333" y="301.05191" fill="#ff3300" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.564333" y="301.05191" fill="#ff3300" font-size="3.5278px" stroke-width=".26458" style="line-height:1">676-679</tspan></text>
+<text x="30.722433" y="301.405" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.722433" y="304.62134" font-size="4.2333px" style="line-height:1"/><tspan x="30.722433" y="308.85468" font-size="3.5278px" style="line-height:1">433-439</tspan></text>
+<text x="31.096611" y="306.9241" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.096611" y="310.14044" font-size="4.2333px" style="line-height:1"/><tspan x="31.096611" y="314.37378" font-size="3.5278px" style="line-height:1">659-665</tspan></text>
+<text x="31.093857" y="316.3721" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.093857" y="319.58844" font-size="4.2333px" style="line-height:1"/><tspan x="31.093857" y="323.82178" font-size="3.5278px" style="line-height:1">440-448</tspan></text>
+<text x="33.736938" y="326.00714" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="33.736938" y="329.22348" font-size="4.2333px" style="line-height:1"/><tspan x="33.736938" y="333.45682" font-size="3.5278px" style="line-height:1">237-246, 587-665</tspan></text>
+<text x="42.323742" y="331.09613" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="42.323742" y="334.31247" font-size="4.2333px" style="line-height:1"/><tspan x="42.323742" y="338.54581" font-size="3.5278px" style="line-height:1">667-679</tspan></text>
+<text x="33.494942" y="335.84671" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="33.494942" y="339.06305" font-size="4.2333px" style="line-height:1"/><tspan x="33.494942" y="343.29639" font-size="3.5278px" style="line-height:1">681-699, 750-772</tspan></text>
+<text x="33.031921" y="342.42822" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="33.031921" y="345.64456" font-size="4.2333px" style="line-height:1"/><tspan x="33.031921" y="349.8779" font-size="3.5278px" style="line-height:1">734-749, 773-899</tspan></text>
+<text x="34.619423" y="349.3074" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="34.619423" y="352.52374" font-size="4.2333px" style="line-height:1"/><tspan x="34.619423" y="356.75708" font-size="3.5278px" style="line-height:1">000, 666, 900-999</tspan></text>
+<text x="31.246664" y="174.65242" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.246664" y="177.86876" font-size="4.2333px" style="line-height:1"/><tspan x="31.246664" y="182.1021" font-size="3.5278px" style="line-height:1">261-267</tspan></text>
+<text x="31.358358" y="231.9951" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="31.358358" y="235.21144" font-size="4.2333px" style="line-height:1"/><tspan x="31.358358" y="239.44478" font-size="3.5278px" style="line-height:1">387-399</tspan></text>
+<text x="81.768654" y="328.69937" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="81.768654" y="331.91571" style="line-height:1"/><tspan x="81.768654" y="336.14905" style="line-height:1">Historically:</tspan></text>
+<text x="84.943657" y="342.4577" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="84.943657" y="345.67404" style="line-height:1"/><tspan x="84.943657" y="349.90738" style="line-height:1">Unknown</tspan></text>
+<text x="82.562408" y="333.06497" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="82.562408" y="336.28131" style="line-height:1"/><tspan x="82.562408" y="340.51465" style="line-height:1">Not Issued</tspan></text>
+<text x="76.609276" y="350.92438" fill="#000000" font-family="sans-serif" font-size="3.5278px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="76.609276" y="353.60468" style="line-height:1"/><tspan x="76.609276" y="357.13245" style="line-height:1">Never Valid Numbers</tspan></text>
+<text x="75.19989" y="14.741776" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.19989" y="17.958117" font-size="4.2333px" style="line-height:1"/><tspan x="75.19989" y="22.19145" font-size="3.5278px" style="line-height:1">449-467</tspan></text>
+<text x="74.769768" y="20.377092" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="74.769768" y="23.593433" font-size="4.2333px" style="line-height:1"/><tspan x="74.769768" y="27.826767" font-size="3.5278px" style="line-height:1">627-645</tspan></text>
+<text x="75.034355" y="28.050009" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.034355" y="31.26635" font-size="4.2333px" style="line-height:1"/><tspan x="75.034355" y="35.499683" font-size="3.5278px" style="line-height:1">468-477</tspan></text>
+<text x="75.034355" y="35.19376" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.034355" y="38.410099" font-size="4.2333px" style="line-height:1"/><tspan x="75.034355" y="42.643433" font-size="3.5278px" style="line-height:1">478-485</tspan></text>
+<text x="75.166641" y="42.602093" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.166641" y="45.818432" font-size="4.2333px" style="line-height:1"/><tspan x="75.166641" y="50.051765" font-size="3.5278px" style="line-height:1">486-500</tspan></text>
+<text x="75.034355" y="62.710426" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.034355" y="65.926765" font-size="4.2333px" style="line-height:1"/><tspan x="75.034355" y="70.160103" font-size="3.5278px" style="line-height:1">503-504</tspan></text>
+<text x="75.298935" y="51.20105" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.298935" y="54.417389" font-size="4.2333px" style="line-height:1"/><tspan x="75.298935" y="58.650723" font-size="3.5278px" style="line-height:1">501-502</tspan></text>
+<text x="74.769768" y="73.029175" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="74.769768" y="76.245514" font-size="4.2333px" style="line-height:1"/><tspan x="74.769768" y="80.478851" font-size="3.5278px" style="line-height:1">505-508</tspan></text>
+<text x="74.902061" y="87.84584" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="74.902061" y="91.06218" font-size="4.2333px" style="line-height:1"/><tspan x="74.902061" y="95.295517" font-size="3.5278px" style="line-height:1">516-517</tspan></text>
+<text x="74.902061" y="79.776047" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="74.902061" y="82.992386" font-size="4.2333px" style="line-height:1"/><tspan x="74.902061" y="87.225723" font-size="3.5278px" style="line-height:1">509-515</tspan></text>
+<text x="75.166641" y="94.195839" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.166641" y="97.412178" font-size="4.2333px" style="line-height:1"/><tspan x="75.166641" y="101.64552" font-size="3.5278px" style="line-height:1">518-519</tspan></text>
+<text x="74.769768" y="107.42501" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="74.769768" y="110.64135" font-size="4.2333px" style="line-height:1"/><tspan x="74.769768" y="114.87469" font-size="3.5278px" style="line-height:1">524-524</tspan></text>
+<text x="75.034355" y="101.33959" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.034355" y="104.55593" font-size="4.2333px" style="line-height:1"/><tspan x="75.034355" y="108.78927" font-size="3.5278px" style="line-height:1">520</tspan></text>
+<text x="75.166641" y="112.71667" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.166641" y="115.93301" font-size="4.2333px" style="line-height:1"/><tspan x="75.166641" y="120.16634" font-size="3.5278px" style="line-height:1">650-653</tspan></text>
+<text x="74.769768" y="120.78647" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="74.769768" y="124.00281" font-size="4.2333px" style="line-height:1"/><tspan x="74.769768" y="128.23615" font-size="3.5278px" style="line-height:1">525, 585</tspan></text>
+<text x="75.034355" y="125.94584" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.034355" y="129.16219" font-size="4.2333px" style="line-height:1"/><tspan x="75.034355" y="133.39551" font-size="3.5278px" style="line-height:1">648-649</tspan></text>
+<text x="75.431229" y="133.08958" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.431229" y="136.30592" font-size="4.2333px" style="line-height:1"/><tspan x="75.431229" y="140.53926" font-size="3.5278px" style="line-height:1">526-527</tspan></text>
+<text x="75.166641" y="137.8521" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.166641" y="141.06844" font-size="4.2333px" style="line-height:1"/><tspan x="75.166641" y="145.30177" font-size="3.5278px" style="line-height:1">600-601</tspan></text>
+<text x="75.828102" y="143.27605" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.828102" y="146.49239" font-size="4.2333px" style="line-height:1"/><tspan x="75.828102" y="150.72572" font-size="3.5278px" style="line-height:1">764-765</tspan></text>
+<text x="74.769768" y="149.62605" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="74.769768" y="152.84239" font-size="4.2333px" style="line-height:1"/><tspan x="74.769768" y="157.07573" font-size="3.5278px" style="line-height:1">528-529</tspan></text>
+<text x="75.298935" y="155.1823" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.298935" y="158.39864" font-size="4.2333px" style="line-height:1"/><tspan x="75.298935" y="162.63197" font-size="3.5278px" style="line-height:1">646-647</tspan></text>
+<text x="74.902061" y="164.04584" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="74.902061" y="167.26218" font-size="4.2333px" style="line-height:1"/><tspan x="74.902061" y="171.49551" font-size="3.5278px" style="line-height:1">530-680</tspan></text>
+<text x="75.563522" y="178.20105" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.563522" y="181.41739" font-size="4.2333px" style="line-height:1"/><tspan x="75.563522" y="185.65073" font-size="3.5278px" style="line-height:1">531-539</tspan></text>
+<text x="75.828102" y="191.03334" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.828102" y="194.24968" font-size="4.2333px" style="line-height:1"/><tspan x="75.828102" y="198.48302" font-size="3.5278px" style="line-height:1">540-544</tspan></text>
+<text x="75.298935" y="197.51562" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.298935" y="200.73196" font-size="4.2333px" style="line-height:1"/><tspan x="75.298935" y="204.9653" font-size="3.5278px" style="line-height:1">545-573</tspan></text>
+<text x="75.828102" y="210.08334" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.828102" y="213.29968" font-size="4.2333px" style="line-height:1"/><tspan x="75.828102" y="217.53302" font-size="3.5278px" style="line-height:1">574</tspan></text>
+<text x="75.960396" y="217.75626" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.960396" y="220.9726" font-size="4.2333px" style="line-height:1"/><tspan x="75.960396" y="225.20593" font-size="3.5278px" style="line-height:1">575-576</tspan></text>
+<text x="75.431229" y="221.98961" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.431229" y="225.20595" font-size="4.2333px" style="line-height:1"/><tspan x="75.431229" y="229.43929" font-size="3.5278px" style="line-height:1">750-751</tspan></text>
+<text x="75.431229" y="230.58855" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.431229" y="233.80489" font-size="4.2333px" style="line-height:1"/><tspan x="75.431229" y="238.03822" font-size="3.5278px" style="line-height:1">577-579</tspan></text>
+<text x="78.077057" y="243.28856" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="78.077057" y="246.5049" font-size="4.2333px" style="line-height:1"/><tspan x="78.077057" y="250.73824" font-size="3.5278px" style="line-height:1">580</tspan></text>
+<text x="75.563522" y="253.87189" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.563522" y="257.08823" font-size="4.2333px" style="line-height:1"/><tspan x="75.563522" y="261.32156" font-size="3.5278px" style="line-height:1">580-584</tspan></text>
+<text x="75.960396" y="303.08438" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.960396" y="306.30072" font-size="4.2333px" style="line-height:1"/><tspan x="75.960396" y="310.53406" font-size="3.5278px" style="line-height:1">700-728</tspan></text>
+<text x="75.960396" y="316.18124" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.960396" y="319.39758" font-size="4.2333px" style="line-height:1"/><tspan x="75.960396" y="323.63092" font-size="3.5278px" style="line-height:1">729-733</tspan></text>
+<text x="93.261497" y="18.111595" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="93.261497" y="21.327936" style="line-height:1"/><tspan x="93.261497" y="25.56127" style="line-height:1">Texas</tspan></text>
+<text x="92.71209" y="28.110287" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="92.71209" y="31.326628" style="line-height:1"/><tspan x="92.71209" y="35.559959" style="line-height:1">Minnesota</tspan></text>
+<text x="93.155487" y="35.10548" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="93.155487" y="38.321819" style="line-height:1"/><tspan x="93.155487" y="42.555153" style="line-height:1">Iowa</tspan></text>
+<text x="93.155487" y="42.401939" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="93.155487" y="45.618279" style="line-height:1"/><tspan x="93.155487" y="49.851612" style="line-height:1">Missouri</tspan></text>
+<text x="95.459244" y="49.400337" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="95.459244" y="52.616676" style="line-height:1"/><tspan x="95.459244" y="56.85001" style="line-height:1">North</tspan></text>
+<text x="94.649445" y="54.404961" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="94.649445" y="57.6213" style="line-height:1"/><tspan x="94.649445" y="61.854633" style="line-height:1">Dakota</tspan></text>
+<text x="96.081955" y="61.374012" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="96.081955" y="64.590355" style="line-height:1"/><tspan x="96.081955" y="68.823685" style="line-height:1">South</tspan></text>
+<text x="95.210709" y="66.659271" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="95.210709" y="69.87561" style="line-height:1"/><tspan x="95.210709" y="74.108948" style="line-height:1">Dakota</tspan></text>
+<text x="93.716751" y="72.929489" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="93.716751" y="76.145828" style="line-height:1"/><tspan x="93.716751" y="80.379166" style="line-height:1">Nebraska</tspan></text>
+<text x="93.529663" y="80.00676" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="93.529663" y="83.223099" style="line-height:1"/><tspan x="93.529663" y="87.456436" style="line-height:1">Kansas</tspan></text>
+<text x="93.295799" y="87.770943" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="93.295799" y="90.987282" style="line-height:1"/><tspan x="93.295799" y="95.220619" style="line-height:1">Montana</tspan></text>
+<text x="93.482887" y="94.41259" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="93.482887" y="97.628929" style="line-height:1"/><tspan x="93.482887" y="101.86227" style="line-height:1">Idaho</tspan></text>
+<text x="93.047264" y="102.00436" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="93.047264" y="105.2207" style="line-height:1"/><tspan x="93.047264" y="109.45403" style="line-height:1">Wyoming</tspan></text>
+<text x="93.436119" y="111.48444" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="93.436119" y="114.70078" style="line-height:1"/><tspan x="93.436119" y="118.93412" style="line-height:1">Colorado</tspan></text>
+<text x="97.96476" y="121.47625" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="97.96476" y="124.69259" style="line-height:1"/><tspan x="97.96476" y="128.92592" style="line-height:1">New</tspan></text>
+<text x="95.070389" y="125.67107" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="95.070389" y="128.88741" style="line-height:1"/><tspan x="95.070389" y="133.12074" style="line-height:1">Mexico</tspan></text>
+<text x="94.494453" y="139.38998" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="94.494453" y="142.60632" style="line-height:1"/><tspan x="94.494453" y="146.83966" style="line-height:1">Arizona</tspan></text>
+<text x="94.245918" y="152.79893" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="94.245918" y="156.01527" style="line-height:1"/><tspan x="94.245918" y="160.24861" style="line-height:1">Utah</tspan></text>
+<text x="93.763527" y="164.55896" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="93.763527" y="167.7753" style="line-height:1"/><tspan x="93.763527" y="172.00864" style="line-height:1">Nevada</tspan></text>
+<text x="93.684654" y="180.22209" fill="#000000" font-family="sans-serif" font-size="3.5278px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="93.684654" y="182.90237" style="line-height:1"/><tspan x="93.684654" y="186.43016" style="line-height:1">Washington</tspan></text>
+<text x="94.354134" y="190.71649" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="94.354134" y="193.93283" style="line-height:1"/><tspan x="94.354134" y="198.16617" style="line-height:1">Oregon</tspan></text>
+<text x="93.684654" y="201.36311" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="93.684654" y="204.57945" style="line-height:1"/><tspan x="93.684654" y="208.81279" style="line-height:1">California</tspan></text>
+<text x="94.05883" y="210.12695" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="94.05883" y="213.34329" style="line-height:1"/><tspan x="94.05883" y="217.57663" style="line-height:1">Alaska</tspan></text>
+<text x="94.789757" y="220.11874" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="94.789757" y="223.33508" style="line-height:1"/><tspan x="94.789757" y="227.56842" style="line-height:1">Hawaii</tspan></text>
+<text x="93.140808" y="229.08711" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="93.140808" y="232.30345" style="line-height:1"/><tspan x="93.140808" y="236.53679" style="line-height:1">District of</tspan></text>
+<text x="93.716751" y="234.0303" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="93.716751" y="237.24664" style="line-height:1"/><tspan x="93.716751" y="241.47998" style="line-height:1">Columbia</tspan></text>
+<text x="95.771973" y="241.63394" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="95.771973" y="244.85028" style="line-height:1"/><tspan x="95.771973" y="249.08362" style="line-height:1">Virgin</tspan></text>
+<text x="95.196037" y="246.73212" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="95.196037" y="249.94846" style="line-height:1"/><tspan x="95.196037" y="254.18179" style="line-height:1">Islands</tspan></text>
+<text x="95.818748" y="253.81493" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="95.818748" y="257.03128" style="line-height:1"/><tspan x="95.818748" y="261.26459" style="line-height:1">Puerto</tspan><tspan x="95.818748" y="265.49792" style="line-height:1"> Rico</tspan></text>
+<text x="95.818748" y="265.0842" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="95.818748" y="268.30054" style="line-height:1"/><tspan x="95.818748" y="272.53387" style="line-height:1">Guam</tspan></text>
+<text x="93.763527" y="274.45334" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="93.763527" y="277.66968" style="line-height:1"/><tspan x="93.763527" y="281.90302" style="line-height:1">American</tspan></text>
+<text x="95.6931" y="278.80591" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="95.6931" y="282.02225" style="line-height:1"/><tspan x="95.6931" y="286.25558" style="line-height:1">Samoa</tspan></text>
+<text x="93.748848" y="289.94958" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="93.748848" y="293.16592" style="line-height:1"/><tspan x="93.748848" y="297.39926" style="line-height:1">Philippine</tspan></text>
+<text x="96.877083" y="294.23795" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="96.877083" y="297.45428" style="line-height:1"/><tspan x="96.877083" y="301.68762" style="line-height:1">Islands</tspan></text>
+<text x="93.374672" y="301.68942" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="93.374672" y="304.90576" style="line-height:1"/><tspan x="93.374672" y="309.1391" style="line-height:1">Railroad</tspan></text>
+<text x="94.900726" y="305.62103" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="94.900726" y="308.83737" style="line-height:1"/><tspan x="94.900726" y="313.07071" style="line-height:1">Board</tspan></text>
+<text x="92.690514" y="313.18069" fill="#000000" font-family="sans-serif" font-size="3.5278px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="92.690514" y="315.86099" style="line-height:1"/><tspan x="92.690514" y="319.38876" style="line-height:1">Enumeration</tspan></text>
+<text x="95.102493" y="316.3493" fill="#000000" font-family="sans-serif" font-size="4.2333px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="95.102493" y="319.56564" style="line-height:1"/><tspan x="95.102493" y="323.79898" style="line-height:1">at Entry</tspan></text>
+<text x="75.232788" y="202.74115" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.232788" y="205.95749" font-size="4.2333px" style="line-height:1"/><tspan x="75.232788" y="210.19083" font-size="3.5278px" style="line-height:1">602-626</tspan></text>
+<text x="75.497375" y="258.36981" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="75.497375" y="261.58615" font-size="4.2333px" style="line-height:1"/><tspan x="75.497375" y="265.81949" font-size="3.5278px" style="line-height:1">596-599</tspan></text>
+<path d="m74.04 268.46h18.08v34.854h-18.08z" fill="#d9d9d9" fill-rule="evenodd"/>
+<text x="79.824074" y="278.86209" fill="#000000" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="79.824074" y="282.07843" font-size="4.2333px" style="line-height:1"/><tspan x="79.824074" y="286.31177" font-size="3.5278px" style="line-height:1">586</tspan></text>
+<text x="30.491499" y="356.53613" fill="#ff3300" font-family="sans-serif" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1" xml:space="preserve"><tspan x="30.491499" y="359.75247" font-size="4.2333px" style="line-height:1"/><tspan x="30.491499" y="363.98581" font-size="3.5278px" style="line-height:1">* In 2011 - Reassigned to Random Pool</tspan></text>
+</g>
+</svg>
