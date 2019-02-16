@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132187606-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-132187606-1');
+</script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-5845274709975922",
+    enable_page_level_ads: true
+  });
+</script>
+
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>NumChk: SSN Dataset State analysis - Enumeration at Entry</title>
+  <meta name="The numbers checker" content="">
+  <meta name="numchk" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– 
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">-->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../../css/normalize.css">
+  <link rel="stylesheet" href="../../css/skeleton.css">
+  <link rel="stylesheet" href="../../css/custom.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="../../img/favicon.png">
+
+  <!-- scripts
+  <script src="js/site.js"></script>
+  <script src="js/jquery.min.js"></script>
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+   
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div id="t"></div>
+            
+
+<div class="container" style="margin-top: 0%">
+    <div class="row"><div style="margin-top: 0%">
+            <img src="../../img/ssnstats/EE.PNG" width=100%><br>
+                                                                                  
+          These plots show which SSN numbers were allocated in what years using 2 separate data sources for reference. In these plots the <b>X-axis</b> is the first 5 digits of the SSN. For example SSN 123-45-xxxx would be found at position <b>123.45</b> on the chart.  The <b>Y-Axis</b> is the year.  The Death Master Database records the SSN of a person that has died and the date of birth and death, From this the oldest death in a block can be identified and is shown in <b>BLUE</b> and often helps identify the beginning year a block was assigned.  A separate dataset looks at the estimated date a block was first assigned by analyzing the last block issued data. The SSA use to publish the last block issued per state every year, and from this you could determined when a set of blocks was active.  These datapoints are in <b>RED</b>.  The block issuance order is as follows per notes at SSA.gov:<br><br>
+          Within each area, the group number (middle two (2) digits) range from 01 to 99 but are <B>not assigned in consecutive order</B>. For administrative reasons, group numbers issued first consist of the ODD numbers from 01 through 09 and then EVEN numbers from 10 through 98, within each area number allocated to a State. After all numbers in group 98 of a particular area have been issued, the EVEN Groups 02 through 08 are used, followed by ODD Groups 11 through 99.<br><br>
+          Group numbers are assigned as follows:<br>
+          ODD - 01, 03, 05, 07, 09------EVEN - 10 to 98 <br>
+          EVEN - 02, 04, 06, 08------ODD - 11 to 99<br><br>
+
+          This means the order of issuance is <BR>01, 03, 05, 07, 09, 10, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 42, 44, 46, 48, 50, 52, 54, 56, 58, 60, 62, 64, 66, 68, 70, 72, 74, 76, 78, 80, 82, 84, 86, 88, 90, 92, 94, 96, 98, 02, 04, 06, 08, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77, 79, 81, 83, 85, 87, 89, 91, 93, 95, 97, 99.<BR><BR>
+
+            <img src="../../img/ssnstats/readplot.PNG" width=50%><br>
+            Graphically explained in the following example as we look through SSN 433-01-xxxx to 433-99-xxxx from Lousiana:<br><br>
+
+            1.  in 1936 we see numbers starting -01 (ODD to 09, and then EVEN 10 on) issued through about -46. No real distinction in the red dataset, but when look at the death data - we see blue dots above. one possible interpretation is that a straight line estimate could be taken from -01 to -48 and fit this from 1936 to 1950 and this may be a better estimate of when these blocks were issued.<br>
+            2. in 1950, at about -48 we continue the climb but the data is much better distributed by year, so we see a block issued, and then the next start a stair climb up. so from 1950 to 1970 we are very confident of the dates issued. Red Dots are plotted last, so if a blue dot agrees it will be hidden behind.<br>
+            3. in 1970 we continue with EVEN issue from 02-08. We see an interesting anomaly (studder in the stairstep) around 1988 is probably explained by the switch to 'numeration at birth'. here the death data gives insight that these blocks were probably not all filled at once, but in a more linear fashion over these 3-4 year span. <br>
+            4. in 1973 we finish the allocation with odd from 11 to 99 ending in around 1997.<br><br>
+
+
+          <a href="Alabama.html">Alabama</a><br>
+          <a href="Alaska.html">Alaska</a><br>
+          <a href="Arizona.html">Arizona</a><br>
+          <a href="Arkansas.html">Arkansas</a><br>
+          <a href="California.html">California</a><br>
+          <a href="Colorado.html">Colorado</a><br>
+          <a href="Connecticut.html">Connecticut</a><br>
+          <a href= "DC.html">District of Columbia</a>
+          <a href="Delaware.html">Delaware</a><br>
+          <a href="Florida.html">Florida</a><br>
+          <a href="Georgia.html">Georgia</a><br>
+          <a href="Hawaii.html">Hawaii</a><br>
+          <a href="Idaho.html">Idaho</a><br>
+          <a href="Illinois.html">Illinois</a><br>
+          <a href="Indiana.html">Indiana</a><br>
+          <a href="Iowa.html">Iowa</a><br>
+          <a href="Kansas.html">Kansas</a><br>
+          <a href="Kentucky.html">Kentucky</a><br>
+          <a href="Louisiana.html">Louisiana</a><br>
+          <a href="Maine.html">Maine</a><br>
+          <a href="Maryland.html">Maryland</a><br>
+          <a href="Massachusetts.html">Massachusetts</a><br>
+          <a href="Michigan.html">Michigan</a><br>
+          <a href="Minnesota.html">Minnesota</a><br>
+          <a href="Mississippi.html">Mississippi</a><br>
+          <a href="Missouri.html">Missouri</a><br>
+          <a href="Montana.html">Montana</a><br>
+          <a href="Nebraska.html">Nebraska</a><br>
+          <a href="Nevada.html">Nevada</a><br>
+          <a href="New Hampshire.html">New Hampshire</a><br>
+          <a href="New Jersey.html">New Jersey</a><br>
+          <a href="New Mexico.html">New Mexico</a><br>
+          <a href="New York.html">New York</a><br>
+          <a href="North Carolina.html">North Carolina</a><br>
+          <a href="North Dakota.html">North Dakota</a><br>
+          <a href="Ohio.html">Ohio</a><br>
+          <a href="Oklahoma.html">Oklahoma</a><br>
+          <a href="Oregon.html">Oregon</a><br>
+          <a href="Pennsylvania.html">Pennsylvania</a><br>
+          <a href="Rhode Island.html">Rhode Island</a><br>
+          <a href="South Carolina.html">South Carolina</a><br>
+          <a href="South Dakota.html">South Dakota</a><br>
+          <a href="Tennessee.html">Tennessee</a><br>
+          <a href="Texas.html">Texas</a><br>
+          <a href="Utah.html">Utah</a><br>
+          <a href="Vermont.html">Vermont</a><br>
+          <a href="Virginia.html">Virginia</a><br>
+          <a href="Washington.html">Washington</a><br>
+          <a href="West Virginia.html">West Virginia</a><br>
+          <a href="Wisconsin.html">Wisconsin</a><br>
+          <a href="Wyoming.html">Wyoming</a><br>
+          <a href="EE.html">Enumeration at Entry</a><br>
+          <a href="RRB.html">RailRoad Board</a><br>
+          <a href="Unk.html">Unknown</a><br>
+          <a href="Vi.html">Virgin Islands</a><br>
+          <a href="Gap.html">Guam, American Samoa, Philippines</a><br>
+          <a href="Puerto Rico.html">Puerto Rico</a><br>
+          
+
+
+  
+                            
+
+
+    <div class="row">
+      <div class="one-half column" style="margin-top: 10%">
+        <h4>NumChk</h4>
+        <p>info@numchk.com</p>
+  
+
+      </div>
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script>var randompage3= parseInt(Math.random() * 899);
+    var randompage2= parseInt(Math.random() * 99);
+    if(randompage3 >99){}
+    else if(randompage3 < 10){randompage3 = "00" + randompage3;}
+    else {randompage3 = "0" + randompage3;}
+    if(randompage2 >9){}
+    else {randompage2 = "0" + randompage2;}
+    var topp = '<div class="container" style="margin-top: 0%">\
+<div class="four columns value-prop" align=center>\
+\
+<a href="/"><img src="../../img/trim256.png" width=100px><br>&nbsp;&nbsp;&nbsp;&nbsp;NumChk Home</a>\
+</div>\
+<div class="four columns value-prop">\
+<img src="../../img/ssnold-blur-250.jpg" height=100px >\
+</div>\
+<div class="four columns value-prop" align=center>\
+<br>\
+<A href="../' + randompage3 + "-" + randompage2 + '-xxxx.html"><h1>SSN</h1>random SSN</a>\
+</div>\
+<div class="row" align=center>\
+<h2>NumChk SSN Dataset State analysis</h2><hr>\
+</div></div>'; 
+   
+    //top replace
+    document.getElementById('t').innerHTML = topp;</script>    
+</body>
+</html>
