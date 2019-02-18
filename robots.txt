@@ -3,4 +3,4 @@ Allow:
 Disallow: *xxxx.html
 
 User-agent: *
-Disallow:
+Disallow: *xxxx.html
