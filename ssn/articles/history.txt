@@ -1,4 +1,8 @@
-
+2/18 13.8k pages indexed
+2/18 12.7k pages indexed
+2/18 13.1k pages indexed
+2/17 15.7k pages indexed
+2/17 change robots, block *xxxx.html and re-index
 2/17 15.7k pages indexed - adsense denied 9am
 2/16 16.4k pages indexed applied adsense 7pm
 2/16 17.1k pages indexed
