@@ -59,29 +59,35 @@
 
 <div class="container" style="margin-top: 0%">
     <div class="row"><div style="margin-top: 0%">
-        The Death Master Database was analyzed with the following PERL script, hacked together to plow through ~10GB of raw text in just a few minutes.  A much better and more elegant program is possible, but this gets the job done for the purposes of numchk. Outline of the this page:<br>
+        The Death Master Database was analyzed with the following PERL script, hacked together to plow through ~10GB of raw text in just a few minutes.  A much better and more elegant program is possible, but this gets the job done for the purposes of NumChk. <br><br>
+        Outline of the this page:<br>
         1. quick overview of the structure of the SSDI file and the data format
         2. screenshots available of the code because Visual Studio Code does a nice job of colorization.<br>
         3. Some annotation of the code for those that or just learning, or want to poke holes in the analysis<br>
         4. How the code was run with console redirect (>) operator for easy file output.<br>
         5. What the output looks like<br>
         6. Perl Code in txt form at the bottom for you to copy out if you want to use it.<br><Br>
-        for an overview of the data being processed, see SSDI section in <a href=index.html>SSN Dataset</a><br>
+        for an overview of the data being processed, see SSDI section in <a href=index.html>SSN Dataset</a><br><br>
+        <b>1. quick overview of the structure of the SSDI file and the data format</b><br>
         <img src="../../img/ssn-DMF.PNG" width=100%><br>
-        <img src="../../img/ssdiraw.PNG" width=100%><br>
+        <img src="../../img/ssdiraw.PNG" width=100%><br><br>
+
+        <b>2. screenshots available of the code because Visual Studio Code does a nice job of colorization.</b><br>
+
         <img src="../../img/ssnstats/DB-prog1.PNG" width=100%><br>
         <img src="../../img/ssnstats/DB-prog2.PNG" width=100%><br>
         <br>
-
-        The program is run from the console as follows:<br>
+        <b>3. Some annotation of the code for those that or just learning, or want to poke holes in the analysis</b><br><br>
+        <b>4. How the code was run with console redirect (>) operator for easy file output.</b><br>
         <b>C:\User\NumChk> perl parse.pl > output.csv</b><br>
-        The dataset run had 3 files, so this was repeated once for each base file and results stored in a new output file. look at <b>Line 3</b> of the program and change the name to point to the datafile, run, change the name, run again. In Windows/DOS, the '>' is a console redirect so instead of putting results out on STDIO (screen) it shoves it in a file (output.csv) in the same directory the program is run from.
+        The dataset run had 3 files, so this was repeated once for each base file and results stored in a new output file. look at <b>Line 3</b> of the program and change the name to point to the datafile, run, change the name, run again. In Windows/DOS, the '>' is a console redirect so instead of putting results out on STDIO (screen) it shoves it in a file (output.csv) in the same directory the program is run from.<br>
+        <b>5. What the output looks like</b><br>
         <img src="../../img/ssnstats/parseoutput.PNG" width=100%><br>                                                                       
           
           
 
 
-  
+        <b>6. Perl Code in txt form for you to copy out if you want to use it.</b><br>
      <pre>
             use strict;
             use warnings;
