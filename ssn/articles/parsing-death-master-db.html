@@ -86,8 +86,10 @@
 
         <b>5. What the output looks like</b><br>
         <img src="../../img/ssnstats/parseoutput.PNG" width=100%><br>           
-        From here it's just data manipulation and repacking suitable for JS consumption and that is how part of the dataset for Numchk SSN was done.  With this, 10GB of data was squished down to just less than 3MB so a summary could be presented for each SSN block. actually to get to 3MB, a few more tricks were run - subtract 1900 from dates and you save a few digits in base file, and add them back in in JS.<br><br>                                                          
-          
+        From here it's just data manipulation and repacking suitable for JS consumption and that is how part of the dataset for Numchk SSN was done.  With this, 10GB of data was squished down to just less than 3MB so a summary could be presented for each SSN block. actually to get to 3MB, a few more tricks were run - subtract 1900 from dates and you save a few digits in base file, and add them back in in JS.<br><br>
+        
+        <img src="../../img/ssnstats/parseoutput-squish.PNG" width=100%><br> 
+        Here we see the additional manipulation of the data done (seperately) to smash the data down a little farther to improve load time.  The zeros are removed, and Years are changed to subtract 1900 which effectively converts them to 2 digits. There isn't much data below 1900 so a few minus signs doesn't change the size much.<br><Br>
           
 
 
