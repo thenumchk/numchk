@@ -1,6 +1,5 @@
 User-agent: Google
-Allow: 
-Disallow: *xxxx.html
+Disallow: 
 
 User-agent: *
-Disallow: *xxxx.html
+Disallow: 
