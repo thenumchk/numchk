@@ -1,3 +1,8 @@
+2/27 cleaned 58 pages from google search (toremove7.txt)
+2/27 cleaned 57+71 pages from google search (toremove5/6.txt)
+2/27 allow all in robots.txt so google can see gone
+2/27 cleaned 271 pages from google search (remove4.txt)
+2/27 adsense denied
 2/26 cleaned another 246 pages from google search (toremove2/3.txt)
 2/25 cleaned 276  google search (toremove.txt)
 2/24 ☯ SSN number format
