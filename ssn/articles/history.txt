@@ -1,3 +1,4 @@
+3/2  sitemap-nossn1.txt and sitemap-nossn2.txt
 3/1  noindex added to ssn pages 89900 pages
 3/1  siteindex.txt added
 3/1  toremove10.txt
