@@ -1,3 +1,5 @@
+2/28 toremove9.txt
+2/27 (toremove8.txt) 9 ready to run 
 2/27 cleaned 58 pages from google search (toremove7.txt)
 2/27 cleaned 57+71 pages from google search (toremove5/6.txt)
 2/27 allow all in robots.txt so google can see gone
@@ -11,7 +13,7 @@
 2/24 10.5k reported, =298 actual= in search!
 2/23 ☯ SSN-issued-by-state.html
 2/23 adsense denied
-2/23 remove SSN pages
+2/23 remove SSN pages ---------------
 2/23 10.5k pages indexed
 2/21 10.3k pages indexed
 2/18 13.8k pages indexed
