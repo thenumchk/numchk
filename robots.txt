@@ -3,6 +3,4 @@ Disallow:
 
 User-agent: *
 Disallow: 
-Sitemap: https://numchk.com/sitemap-nossn1.txt
-Sitemap: https://numchk.com/sitemap-nossn2.txt
 Sitemap: https://numchk.com/sitemap.txt
