@@ -1,3 +1,17 @@
+3/20 toremove28 and 29.txt (search console remove  14,130 total to date of 17,163)
+3/14 in search concsole, sitemap vlidation errors, hit 'validate' on all errors
+3/14 toremove26-27 by looking at page views compared to remove (search console remove 13,244 total to date)
+3/13 cache for https://numchk.com/ssn/458-40-xxxx.html Googlebot/2.1; +http://www.google.com/bot.html) Safari/537.36 ...Number Checker - SSN - issue: undefined est age ... - NumChk
+3/10 toremove22 and 23.txt (search console remove  11,696 total to date)
+rss reader: http://www.feedbucket.com/?src=http%3A%2F%2Fspectrasensors.com
+3/10 toremove21.txt (search console remove  11,696 total to date) 503 with '1' in end
+3/9  toremove20.txt (search console remove  10,695 total to date) start 8:03 pm
+3/6  toremove18.txt (search console remove  8,703 total to date) -72-
+3/6  toremove17.txt (search console remove  7,702 total to date) -55-
+3/5  toremove16.txt (search console remove  6,701 total to date)
+3/4  toremove15.txt (search console remove  5,709 total to date)
+3/3  toremove14.txt (search console remove 4,669 total to date)
+3/3  toremove13.txt 
 3/2  toremove12.txt
 3/2  sitemap-nossn1.txt and sitemap-nossn2.txt
 3/1  noindex added to ssn pages 89900 pages
