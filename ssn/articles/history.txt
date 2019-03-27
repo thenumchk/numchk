@@ -1,6 +1,17 @@
+
+
+3/26 amazon numchk-20
+https://affiliate-program.amazon.com/home/
+Store: numchk-20 
+
+<!-- Amazon Publisher Studio -->
+<script> var amzn_ps_tracking_id = "numchk-20"; </script> 
+<script async="true" type="text/javascript" src="//ps-us.amazon-adsystem.com/scripts/US/studio.js"></script>
+
+
 timestamps: ([01]?[0-9]|2[0-3]):[0-5][0-9](:[0-5][0-9]),([0-9]*)( --> )?
-([0-9]?[0-9]?[0-9]\n)
-^\n
+numbers: ([0-9]?[0-9]?[0-9]\n)
+blank new lines: ^\n
 
 3/25 adsense approved $0.31
 3/24 toremove33-34-35 from last 7 day history from site visit (removed 15,397 of 14,616)
