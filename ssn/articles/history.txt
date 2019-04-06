@@ -1,5 +1,7 @@
 
-
+4/5 adesnse about $0.80 
+4/5 remove <meta name="robots" content="noindex"> from line 27 of master.txt for main pages
+4/5  add 1350 (above 2 hits in analytics history) to sitemap.txt
 3/26 amazon numchk-20
 https://affiliate-program.amazon.com/home/
 Store: numchk-20 
