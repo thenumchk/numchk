@@ -1,6 +1,2 @@
-User-agent: Google
-Disallow: 
-
 User-agent: *
-Disallow: 
-Sitemap: https://numchk.com/sitemap.txt
+Disallow:
