@@ -1,4 +1,13 @@
-
+6/3   added ads.txt
+6/2 cleared adsense blocking controls ~400
+05/27 create secondary adsense filter (200 units used) for numchk
+5/23 $10/day common adsense
+4/25 adsense pin mailer received
+4/23 found and fixed bug in adsense code on 90k ssn pages (hard return) keeping ads form loading
+4/21 total adsense about 10.20 triggers pin mailer
+4/20 create data highlighter (author) https://www.google.com/webmasters/tools/data-highlighter?hl=en&authuser=1&siteUrl=https://numchk.com/
+4/19 cancel all search console removes (~3,000)
+4/12 adsense about $1.38
 4/5 adesnse about $0.80 
 4/5 remove <meta name="robots" content="noindex"> from line 27 of master.txt for main pages
 4/5  add 1350 (above 2 hits in analytics history) to sitemap.txt
