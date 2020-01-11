@@ -1,3 +1,4 @@
+6/15 remote alt. adsense act
 6/8 replace adsense src="//pagead2 with src="https://pagead2 on state pages
 6/5 try to add alt adsense account
 6/3   added ads.txt
