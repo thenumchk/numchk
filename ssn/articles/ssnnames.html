@@ -64,24 +64,24 @@
         <img src="../../img/names1.JPG"><br><br>
         This program slurps in the file (line 4) and iterates over each line. we extract first and last name from each row (lines 15,16) and then push them into their own hashes (lines 22,23).  At the end (line 34) we cycle through the hash for each element and toss it into a file.<br><Br>
         this script is run 3 times, where line 4 is run on file ssdm1, ssdm2, ssdm3 with<br>
-        perl program.pl > lastname-file1.txt<br>
+        <b>perl program.pl > lastname-file1.txt<br>
         perl program.pl > lastname-file2.txt<br>
-        perl program.pl > lastname-file3.txt<br>
+        perl program.pl > lastname-file3.txt<br></b>
         note the use of '>' from the command line to redirect the STDIO (screen) to a file so we don't have to write this stupid part in PERL.
         <br>
         then line 39 is changed to %firstnamehash and run again<br>
-        perl program2.pl > firstname-file1.txt<br>
+        <b>perl program2.pl > firstname-file1.txt<br>
         perl program2.pl > firstname-file2.txt<br>
-        perl program2.pl > firstname-file3.txt<br>
+        perl program2.pl > firstname-file3.txt<br></b>
 
         <br>
         <img src="../../img/names2.JPG"><br><br>
-        now a quick script is run to join 3 of each file together. if you were on linux you could use  cat probably, but on win10 we get to do it the hard way for those of us that haven't dove into powershell yet.  <br>
+        now a quick script is run to join 3 of each file together. If you were on linux you could use  cat probably, but on win10 we get to do it the hard way for those of us that haven't dove into powershell yet.  <br>
         we run this script to join the 3 first name files together by first reading everything into a hash, and the putting the hash out in line 39. we run this with:<br>
-        perl program3.pl > firstname-all.txt<br><br>
+        <b>perl program3.pl > firstname-all.txt</b><br><br>
 
         now change lines 11, 20, and 29 to point to lastname files. and change change the names of all the variables to lastname if you want to be consistent and proper, or just ignore it - and run again as:<br>
-        perl program4.pl > lastname-all.txt<br><br>
+        <b>perl program4.pl > lastname-all.txt</b><br><br>
 
         <img src="../../img/names3.JPG"><br>
         We now have a file showing 719,037 unique first names! they arn't in alphabetical order, so we pop em over to excel for a quick tidy up and that seems to work well.
@@ -91,8 +91,11 @@
 
         The results so far are the following, just for first names:<br>
 
-        <img src="../../img/namechart1.png"><br>
-        This shows 25% of the names are 7 digits in length.  The data has been slightly processed in that I took the single character names out. I can't find the United States current naming rules, but I suspect the single letters A-Z are valid, but we ignore that for now, because its boring. The longest n
+        <img src="../../img/namechart1.png" width=100%><br>
+        This shows 25% of the names are 7 digits in length.  The data has been slightly processed in that I took the single character names out. I can't find the United States current naming rules, but I suspect the single letters A-Z are valid, but we ignore that for now, because its boring. The longest name is 12 characters long in the dataset.<br><br>
+
+        <img src="../../img/namechart1.png" width=100%><br>
+        of the ~720K names, 50k start with the letter 'L', and 7% start with the letter 'S'.  
 
 
 
