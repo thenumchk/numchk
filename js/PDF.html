@@ -26,7 +26,7 @@
 
 </div>
 
-<canvas id="the-canvas" width="100%" >canvas</canvas><br>
+<canvas id="the-canvas" width=300px >canvas data here</canvas><br>
 
 
 
@@ -34,7 +34,31 @@
 
     // If absolute URL from the remote server is provided, configure the CORS
     // header on that server.
-    var url = 'https://yacdn.org/serve/https://pdfaiw.uspto.gov/00/2015/01/012/2.pdf';
+    
+    var canvas = document.getElementById("the-canvas");
+var ctx = canvas.getContext("2d");
+ctx.font = "30px Arial";
+ctx.fillText("Patent page loading", 10, 50);
+    
+    
+    var urlpre = Math.floor(Math.random() * 100) + 1; // was 00 - seems to go to 99
+    if (urlpre < 10){ulpre="0" + ulpre;}
+    
+    var urlyear = 2002 + Math.floor(Math.random() * 17) + 1; // 2002 - 2019
+    var urlnum = Math.floor(Math.random() * 10) + 1; // was 00,  01 05, 10, 15, 50, 90, 99
+    var urlnum2 = Math.floor(Math.random() * 12) + 1; // was 012, 000, 020, 030, 035, 036, 037
+    var urlpage = Math.floor(Math.random() * 6) + 1; // page in publication 0 2 may be first image?
+    var line = 80;
+
+
+    ctx.fillText('urlpre'+ urlpre, 10, line);line+=30;
+    ctx.fillText('year'+ urlyear, 10, line);line+=30;
+    ctx.fillText('img'+ urlpage, 10, line);line+=30;
+
+
+
+    //var url = 'https://yacdn.org/serve/https://pdfaiw.uspto.gov/02/2017/00/037/2.pdf';
+    var url = 'https://yacdn.org/serve/https://pdfaiw.uspto.gov/00/'+urlyear+'/01/012/'+urlpage+'.pdf';
     
     // Loaded via <script> tag, create shortcut to access PDF.js exports.
     var pdfjsLib = window['pdfjs-dist/build/pdf'];
