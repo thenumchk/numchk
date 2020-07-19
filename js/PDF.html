@@ -35,6 +35,8 @@
 
     // If absolute URL from the remote server is provided, configure the CORS
     // header on that server.
+
+
     
     var canvas = document.getElementById("the-canvas2");
     var ctx = canvas.getContext("2d");
@@ -64,10 +66,13 @@
     ctx.fillText('page   : '+ urlpage, 10, line);line+=30;
 
 
-
+    var canvas = document.getElementById("the-canvas");
+    var ctx = canvas.getContext("2d");
+    ctx.font = "30px Courier";
+    ctx.fillText("Loading...", 10, 50);
 
     //var url = 'https://yacdn.org/serve/https://pdfaiw.uspto.gov/02/2017/00/037/2.pdf';
-    var url = 'https://yacdn.org/serve/https://pdfaiw.uspto.gov/00/'+urlyear+'/01/012/'+urlpage+'.pdf';
+    var url = 'https://yacdn.org/serve/https://pdfaiw.uspto.gov/'+urlpre+'/'+urlyear+'/'+urlnum+'/'+urlnum2+'/'+urlpage+'.pdf';
     
     // Loaded via <script> tag, create shortcut to access PDF.js exports.
     var pdfjsLib = window['pdfjs-dist/build/pdf'];
@@ -144,11 +149,15 @@
     });
 
     function buttonhot() {
-        window.alert("button hot");
+        //window.alert("button hot");
+        window.location.href='PDF.html?ishot';
+        reload();
         }
 
     function buttonnot() {
-        window.alert("button not");
+        //window.alert("button not");
+        window.location.href='PDF.html?nothot';
+        reload();
         }
 
 
