@@ -20,13 +20,14 @@
 <h1>Patent HOT or NOT</h1>
 
 <div>
-  <button id="hot">hot</button>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
-  <button id="not">not</button>
+  <button id="hot" onclick="buttonhot()">hot</button>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+  <button id="not" onclick="buttonnot()">not</button>
   &nbsp; &nbsp;
 
 </div>
 
-<canvas id="the-canvas" width=300px >canvas data here</canvas><br>
+<canvas id="the-canvas" >canvas data here</canvas><br>
+<canvas id="the-canvas2" width=300px height=300px></canvas>
 
 
 
@@ -35,25 +36,33 @@
     // If absolute URL from the remote server is provided, configure the CORS
     // header on that server.
     
-    var canvas = document.getElementById("the-canvas");
-var ctx = canvas.getContext("2d");
-ctx.font = "30px Arial";
-ctx.fillText("Patent page loading", 10, 50);
+    var canvas = document.getElementById("the-canvas2");
+    var ctx = canvas.getContext("2d");
+    ctx.font = "30px Courier";
+    ctx.fillText("-[Patent]-", 10, 50);
+    
+
     
     
     var urlpre = Math.floor(Math.random() * 100) + 1; // was 00 - seems to go to 99
-    if (urlpre < 10){ulpre="0" + ulpre;}
+    if (urlpre < 10){urlpre="0" + urlpre;}
     
     var urlyear = 2002 + Math.floor(Math.random() * 17) + 1; // 2002 - 2019
-    var urlnum = Math.floor(Math.random() * 10) + 1; // was 00,  01 05, 10, 15, 50, 90, 99
-    var urlnum2 = Math.floor(Math.random() * 12) + 1; // was 012, 000, 020, 030, 035, 036, 037
-    var urlpage = Math.floor(Math.random() * 6) + 1; // page in publication 0 2 may be first image?
+    var urlnum = Math.floor(Math.random() * 99) + 1; // was 00,  01 05, 10, 15, 50, 90, 99
+    var urlnum2 = Math.floor(Math.random() * 37) + 1; // was 012, 000, 020, 030, 035, 036, 037
+    if (urlnum2 < 10){urlnum2="0" + urlnum2;}
+    urlnum2 = "0" + urlnum2 // final form is 3 digit 000 up to 037 max
+    
+    //var urlpage = Math.floor(Math.random() * 3) + 1; // page in publication 0 2 may be first image?
+    var urlpage = 2// page in publication 0 2 may be first image?
+    
     var line = 80;
+    ctx.fillText('Urlpre : '+ urlpre, 10, line);line+=30;
+    ctx.fillText('Year   : '+ urlyear, 10, line);line+=30;
+    ctx.fillText('Urlnum : '+ urlnum, 10, line);line+=30;
+    ctx.fillText('Urlnum2: '+ urlnum2, 10, line);line+=30;
+    ctx.fillText('page   : '+ urlpage, 10, line);line+=30;
 
-
-    ctx.fillText('urlpre'+ urlpre, 10, line);line+=30;
-    ctx.fillText('year'+ urlyear, 10, line);line+=30;
-    ctx.fillText('img'+ urlpage, 10, line);line+=30;
 
 
 
@@ -133,6 +142,16 @@ ctx.fillText("Patent page loading", 10, 50);
       // Initial/first page rendering
       renderPage(pageNum);
     });
+
+    function buttonhot() {
+        window.alert("button hot");
+        }
+
+    function buttonnot() {
+        window.alert("button not");
+        }
+
+
 
     </script>
 
