@@ -3,11 +3,20 @@
 <style>
 
     #the-canvas {
-    border: 1px solid black;
-    direction: ltr;
+    border: 1px none black;
+    direction: ltr
+    ;
   }
 
 </style>
+       <style> 
+            body { 
+                text-align:center; 
+            } 
+            h1 { 
+                color:black; 
+            } 
+        </style> 
 
 <script src="pdf.js"></script>
 
@@ -15,7 +24,7 @@
 </head>
 <body>
 
-
+<align = "center">
 
 <h1>Patent HOT or NOT</h1>
 
@@ -30,7 +39,7 @@
 <canvas id="the-canvas2" width=300px height=300px></canvas>
 
 
-
+</align>
 <script>
 
     // If absolute URL from the remote server is provided, configure the CORS
@@ -84,7 +93,7 @@
         pageNum = 1,
         pageRendering = true,
         pageNumPending = null,
-        scale = 1,
+        scale = 2.5,
         canvas = document.getElementById('the-canvas'),
         ctx = canvas.getContext('2d');
     
