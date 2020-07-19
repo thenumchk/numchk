@@ -514,7 +514,6 @@ class DOMCMapReaderFactory extends BaseCMapReaderFactory {
 
     return new Promise((resolve, reject) => {
       const request = new XMLHttpRequest();
-      request.setRequestHeader("Origin", window.location.hostname);
       request.open("GET", url, true);
 
       if (this.isCompressed) {
