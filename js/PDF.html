@@ -45,7 +45,20 @@
     // If absolute URL from the remote server is provided, configure the CORS
     // header on that server.
 
+    // determine counter of hots and nots from number in URL
 
+    var hots = window.location.href.substr(window.location.href.length -6, 3)
+    hots = Number(hots);
+    if (isNaN(hots)){hots = 234;} // default if not present
+    var nots = window.location.href.substr(window.location.href.length -3, 3)
+    nots = Number(nots);
+    if (isNaN(nots)){nots = 123;} // default if not present
+    //var hotsnotscount = '' + hots +  '' + nots;
+    //window.alert(hotsnotscount);
+
+    document.getElementById("hot").value = "hot 123";
+    document.getElementById("not").value = "not 456";
+    
     
     var canvas = document.getElementById("the-canvas2");
     var ctx = canvas.getContext("2d");
@@ -79,6 +92,10 @@
     var ctx = canvas.getContext("2d");
     ctx.font = "30px Courier";
     ctx.fillText("Loading...", 10, 50);
+    ctx.fillText("--[Score]--", 10, 80);
+    ctx.fillText("HOT: " + (hots - 234), 10, 110);
+    ctx.fillText("NOT: " +(nots - 123), 10, 140);
+
 
     //var url = 'https://yacdn.org/serve/https://pdfaiw.uspto.gov/02/2017/00/037/2.pdf';
     var url = 'https://yacdn.org/serve/https://pdfaiw.uspto.gov/'+urlpre+'/'+urlyear+'/'+urlnum+'/'+urlnum2+'/'+urlpage+'.pdf';
@@ -158,18 +175,23 @@
     });
 
     function buttonhot() {
-        //window.alert("button hot");
-        window.location.href='PDF.html?ishot';
+        //window.alert('button hot hot=' + hots + ' not' + nots);
+        hots = hots +1;
+        var hotsnotscount = '' + hots +  '' + nots;
+        window.location.href='PDF.html?'+hotsnotscount;
         reload();
         }
 
     function buttonnot() {
-        //window.alert("button not");
-        window.location.href='PDF.html?nothot';
+        //window.alert('button not hot=' + hots + ' not' + nots);
+        nots = nots +1;
+        var hotsnotscount = '' + hots +  '' + nots;
+        window.location.href='PDF.html?'+hotsnotscount;
         reload();
         }
 
-
+     
+        
 
     </script>
 
