@@ -29,14 +29,16 @@
 <h1>Patent HOT or NOT</h1>
 
 <div>
-  <button id="hot" onclick="buttonhot()" style="background-color:lightblue">[HOT]</button>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
-  <button id="not" onclick="buttonnot()" style="background-color:red">[NOT]</button>
-  &nbsp; &nbsp;
+  <button id="hot" onclick="buttonhot()" style="background-color:lightblue">[HOT]</button>&nbsp; &nbsp;&nbsp; 
+  <button id="not" onclick="buttonnot()" style="background-color:red">[NOT]</button><br>
 
 </div>
 
-<canvas id="the-canvas" >canvas data here</canvas><br>
-<canvas id="the-canvas2" width=500px height=300px></canvas><br>
+<canvas id="the-canvas" height=180px ></canvas><Br>
+
+<canvas id="the-canvas2" width=300px height=250px></canvas><br>
+<a href="PDF.html?2020125700502!!">Page-</a>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<a href="PDF.html?2020125700502!!">Page+</a><br>
 <a id="directlink" href="PDF.html?2020125700502!!">Direct Link</a>
 
 
@@ -109,10 +111,25 @@
     ctx.fillText('Urlnum : '+ urlnum, 10, line);line+=30;
     ctx.fillText('Urlnum2: '+ urlnum2, 10, line);line+=30;
     ctx.fillText('Page   : '+ urlpage, 10, line);line+=30;
-    var seclink = '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage;
-    ctx.fillText('Link   : '+ seclink, 10, line);line+=30;
-    seclink = "PDF.html?" + seclink + "!!";
-    document.getElementsByTagName("a")[0].setAttribute("href", seclink);
+    var seclinkpage = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage+ "!!";
+    var seclinkurlpreminus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage+ "!!";
+    var seclinkurlpreplus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage+ "!!";
+    var seclinkurlyearminus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage+ "!!";
+    var seclinkurlyearplus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage+ "!!";
+    var seclinkurlurlnumminus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage+ "!!";
+    var seclinkurlurlnumplus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage+ "!!";
+    var seclinkurlurlnum2minus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage+ "!!";
+    var seclinkurlurlnum2plus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage+ "!!";
+    var seclinkurlpageminus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + (urlpage-1)+ "!!";
+    var seclinkurlpageplus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + (urlpage+1)+ "!!";
+
+    
+    //ctx.fillText('Link   : '+ seclink, 10, line);line+=30;
+    
+    
+    document.getElementsByTagName("a")[0].setAttribute("href", seclinkurlpageminus); //back at top of page
+    document.getElementsByTagName("a")[1].setAttribute("href", seclinkurlpageplus); //forward page at top of page
+    document.getElementsByTagName("a")[2].setAttribute("href", seclinkpage); //link at bottom of page
 
 
     var canvas = document.getElementById("the-canvas");
@@ -124,8 +141,13 @@
     else {
     ctx.fillText("Loading...", 10, 50);
     ctx.fillText("--[Score]--", 10, 80);
-    ctx.fillText("HOT: " + (hots - 234), 10, 110);
-    ctx.fillText("NOT: " +(nots - 123), 10, 140);
+    ctx.fillStyle = "lightblue";
+    ctx.fillText("  HOT: " + (hots - 234), 10, 110);
+    ctx.fillStyle = "red";
+    ctx.fillText("  NOT: " +(nots - 123), 10, 140);
+    ctx.fillStyle = "green";
+    ctx.fillText("  TOT: " + (hots +nots-123-234), 10, 170);
+
     }
 
 
