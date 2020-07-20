@@ -46,40 +46,6 @@
     // If absolute URL from the remote server is provided, configure the CORS
     // header on that server.
 
-    // determine counter of hots and nots from number in URL
-
-    var hots = window.location.href.substr(window.location.href.length -6, 3)
-    hots = Number(hots);
-    if (isNaN(hots)){hots = 234;} // default if not present
-    var nots = window.location.href.substr(window.location.href.length -3, 3)
-    nots = Number(nots);
-    if (isNaN(nots)){nots = 123;} // default if not present
-    //var hotsnotscount = '' + hots +  '' + nots;
-    //window.alert(hotsnotscount);
-
-    document.getElementById("hot").value = "hot 123";
-    document.getElementById("not").value = "not 456";
-    
-    
-    var canvas = document.getElementById("the-canvas2");
-    var ctx = canvas.getContext("2d");
-    ctx.font = "30px Courier"; //was 30px
-    ctx.fillText("-[Patent]-", 10, 50);
-    
-
-    
-    
-    var urlpre = Math.floor(Math.random() * 100) + 1; // was 00 - seems to go to 99
-    if (urlpre < 10){urlpre="0" + urlpre;}
-    
-    var urlyear = 2002 + Math.floor(Math.random() * 17) + 1; // 2002 - 2019
-    var urlnum = Math.floor(Math.random() * 99) + 1; // was 00,  01 05, 10, 15, 50, 90, 99
-    var urlnum2 = Math.floor(Math.random() * 37) + 1; // was 012, 000, 020, 030, 035, 036, 037
-    if (urlnum2 < 10){urlnum2="0" + urlnum2;}
-    urlnum2 = "0" + urlnum2 // final form is 3 digit 000 up to 037 max
-    
-    //var urlpage = Math.floor(Math.random() * 3) + 1; // page in publication 0 2 may be first image?
-    var urlpage = 2// page in publication 0 2 may be first image?
 
     //if direct link passed in reference, then decode and show that patent - ends in '!!'
     var directlink = window.location.href.substr(window.location.href.length -2, 2)
@@ -93,6 +59,50 @@
     }
 
     
+    if (directlink == "!!"){
+        var hots ="";
+        var nots = "";
+    }
+    else{
+    // determine counter of hots and nots from number in URL
+    var hots = window.location.href.substr(window.location.href.length -6, 3)
+    hots = Number(hots);
+    if (isNaN(hots)){hots = 234;} // default if not present
+    var nots = window.location.href.substr(window.location.href.length -3, 3)
+    nots = Number(nots);
+    if (isNaN(nots)){nots = 123;} // default if not present
+    //var hotsnotscount = '' + hots +  '' + nots;
+    //window.alert(hotsnotscount);
+    }
+
+    document.getElementById("hot").value = "hot 123";
+    document.getElementById("not").value = "not 456";
+    
+    
+    var canvas = document.getElementById("the-canvas2");
+    var ctx = canvas.getContext("2d");
+    ctx.font = "30px Courier"; //was 30px
+    ctx.fillText("-[Patent]-", 10, 50);
+    
+
+    
+    if (directlink == "!!"){
+    }
+    else{
+    var urlpre = Math.floor(Math.random() * 100) + 1; // was 00 - seems to go to 99
+    if (urlpre < 10){urlpre="0" + urlpre;}
+    
+    var urlyear = 2002 + Math.floor(Math.random() * 17) + 1; // 2002 - 2019
+    var urlnum = Math.floor(Math.random() * 99) + 1; // was 00,  01 05, 10, 15, 50, 90, 99
+    var urlnum2 = Math.floor(Math.random() * 37) + 1; // was 012, 000, 020, 030, 035, 036, 037
+    if (urlnum2 < 10){urlnum2="0" + urlnum2;}
+    urlnum2 = "0" + urlnum2 // final form is 3 digit 000 up to 037 max
+    
+    //var urlpage = Math.floor(Math.random() * 3) + 1; // page in publication 0 2 may be first image?
+    var urlpage = 2// page in publication 0 2 may be first image?
+    }
+
+    
     var line = 80;
     ctx.fillText('Urlpre : '+ urlpre, 10, line);line+=30;
     ctx.fillText('Year   : '+ urlyear, 10, line);line+=30;
@@ -101,15 +111,22 @@
     ctx.fillText('Page   : '+ urlpage, 10, line);line+=30;
     var seclink = '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage;
     ctx.fillText('Link   : '+ seclink, 10, line);line+=30;
+    seclink = "PDF.html?" + seclink + "!!";
+    document.getElementsByTagName("a")[0].setAttribute("href", seclink);
 
 
     var canvas = document.getElementById("the-canvas");
     var ctx = canvas.getContext("2d");
     ctx.font = "30px Courier";
+    if (directlink == "!!"){
+        ctx.fillText("Direct Link", 10, 50);
+    }
+    else {
     ctx.fillText("Loading...", 10, 50);
     ctx.fillText("--[Score]--", 10, 80);
     ctx.fillText("HOT: " + (hots - 234), 10, 110);
     ctx.fillText("NOT: " +(nots - 123), 10, 140);
+    }
 
 
     //var url = 'https://yacdn.org/serve/https://pdfaiw.uspto.gov/02/2017/00/037/2.pdf';
