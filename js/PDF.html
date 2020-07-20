@@ -31,12 +31,12 @@
 <div>
   <button id="hot" onclick="buttonhot()">hot</button>&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
   <button id="not" onclick="buttonnot()">not</button>
-  &nbsp; &nbsp;
+  &nbsp; &nbsp;<a id="directlink" href="PDF.html?0420164602602!!">Direct Link</a>
 
 </div>
 
 <canvas id="the-canvas" >canvas data here</canvas><br>
-<canvas id="the-canvas2" width=300px height=300px></canvas>
+<canvas id="the-canvas2" width=500px height=300px></canvas>
 
 
 </align>
@@ -62,7 +62,7 @@
     
     var canvas = document.getElementById("the-canvas2");
     var ctx = canvas.getContext("2d");
-    ctx.font = "30px Courier";
+    ctx.font = "30px Courier"; //was 30px
     ctx.fillText("-[Patent]-", 10, 50);
     
 
@@ -79,13 +79,27 @@
     
     //var urlpage = Math.floor(Math.random() * 3) + 1; // page in publication 0 2 may be first image?
     var urlpage = 2// page in publication 0 2 may be first image?
+
+    //if direct link passed in reference, then decode and show that patent - ends in '!!'
+    var directlink = window.location.href.substr(window.location.href.length -2, 2)
+    if (directlink == "!!"){
+        urlpre  = window.location.href.substr(window.location.href.length -15, 2) // -13-2=15
+        urlyear = window.location.href.substr(window.location.href.length -13, 4) // -9-4=13
+        urlnum  = window.location.href.substr(window.location.href.length -9, 2) // -7-2=9 
+        urlnum2 = window.location.href.substr(window.location.href.length -7, 3) // -4-3=7
+        urlpage = window.location.href.substr(window.location.href.length -4, 2) // -2-2 because line ends with '11' 
+          urlpage = urlpage.substr(1,1); //just take last character for now
+    }
+
     
     var line = 80;
     ctx.fillText('Urlpre : '+ urlpre, 10, line);line+=30;
     ctx.fillText('Year   : '+ urlyear, 10, line);line+=30;
     ctx.fillText('Urlnum : '+ urlnum, 10, line);line+=30;
     ctx.fillText('Urlnum2: '+ urlnum2, 10, line);line+=30;
-    ctx.fillText('page   : '+ urlpage, 10, line);line+=30;
+    ctx.fillText('Page   : '+ urlpage, 10, line);line+=30;
+    var seclink = '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage;
+    ctx.fillText('Link   : '+ seclink, 10, line);line+=30;
 
 
     var canvas = document.getElementById("the-canvas");
@@ -110,7 +124,7 @@
         pageNum = 1,
         pageRendering = true,
         pageNumPending = null,
-        scale = 2.5,
+        scale = 1,
         canvas = document.getElementById('the-canvas'),
         ctx = canvas.getContext('2d');
     
