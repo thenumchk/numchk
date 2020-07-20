@@ -47,6 +47,8 @@
 
     // If absolute URL from the remote server is provided, configure the CORS
     // header on that server.
+    // idea: convert canvas to vector like http://fabricjs.com
+    //http://gliffy.github.io/canvas2svg/
 
 
     //if direct link passed in reference, then decode and show that patent - ends in '!!'
@@ -57,7 +59,7 @@
         urlnum  = window.location.href.substr(window.location.href.length -9, 2) // -7-2=9 
         urlnum2 = window.location.href.substr(window.location.href.length -7, 3) // -4-3=7
         urlpage = window.location.href.substr(window.location.href.length -4, 2) // -2-2 because line ends with '11' 
-          urlpage = urlpage.substr(1,1); //just take last character for now
+        if(urlpage.substr(0,1) =="0"){urlpage=urlpage.substr(1,1);} //strip leading 0 off page number if has it
     }
 
     
@@ -101,7 +103,8 @@
     urlnum2 = "0" + urlnum2 // final form is 3 digit 000 up to 037 max
     
     //var urlpage = Math.floor(Math.random() * 3) + 1; // page in publication 0 2 may be first image?
-    var urlpage = 2// page in publication 0 2 may be first image?
+    var urlpage = 2; // page in publication 0 2 may be first image?
+    var urlpage2dig = "02";
     }
 
     
@@ -111,17 +114,24 @@
     ctx.fillText('Urlnum : '+ urlnum, 10, line);line+=30;
     ctx.fillText('Urlnum2: '+ urlnum2, 10, line);line+=30;
     ctx.fillText('Page   : '+ urlpage, 10, line);line+=30;
-    var seclinkpage = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage+ "!!";
-    var seclinkurlpreminus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage+ "!!";
-    var seclinkurlpreplus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage+ "!!";
-    var seclinkurlyearminus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage+ "!!";
-    var seclinkurlyearplus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage+ "!!";
-    var seclinkurlurlnumminus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage+ "!!";
-    var seclinkurlurlnumplus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage+ "!!";
-    var seclinkurlurlnum2minus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage+ "!!";
-    var seclinkurlurlnum2plus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + urlpage+ "!!";
-    var seclinkurlpageminus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + (urlpage-1)+ "!!";
-    var seclinkurlpageplus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ '0' + (urlpage+1)+ "!!";
+    if (urlpage < 10){var urlpage2dig = "0" + urlpage} //to encode link to page# in 2 digits
+    var seclinkpage            = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ urlpage2dig + "!!";
+    var seclinkurlpreminus     = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ urlpage2dig + "!!"; //not done
+    var seclinkurlpreplus      = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ urlpage2dig + "!!"; //not done
+    var seclinkurlyearminus    = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ urlpage2dig + "!!"; //not done
+    var seclinkurlyearplus     = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ urlpage2dig + "!!"; //not done
+    var seclinkurlurlnumminus  = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ urlpage2dig + "!!"; //not done
+    var seclinkurlurlnumplus   = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ urlpage2dig + "!!"; //not done
+    var seclinkurlurlnum2minus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ urlpage2dig + "!!"; //not done
+    var seclinkurlurlnum2plus  = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ urlpage2dig + "!!"; //not done
+    
+    var urlpage2digminus = Number(urlpage) - 1; 
+    if (urlpage2digminus < 0){urlpage2digminus = 0;} //to encode link to page# in 2 digits
+    if (urlpage2digminus < 10){urlpage2digminus= "0" + urlpage2digminus} //to encode link to page# in 2 digits
+    var urlpage2digplus = Number(urlpage) + 1; 
+    if (urlpage2digplus < 10){urlpage2digplus= "0" + urlpage2digplus} //to encode link to page# in 2 digits
+    var seclinkurlpageminus = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ urlpage2digminus+ "!!";
+    var seclinkurlpageplus  = "PDF.html?" + '' + urlpre + '' + urlyear + '' + urlnum + ''+ urlnum2 + ''+ urlpage2digplus+ "!!";
 
     
     //ctx.fillText('Link   : '+ seclink, 10, line);line+=30;
